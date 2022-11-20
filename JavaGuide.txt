@@ -1,0 +1,64 @@
+// JAVA SYNTAX:
+
+Type conversion
+(int)
+
+
+ARRAYS
+
+String res= Arrays.toString(nums)
+int[] myIntArray = new int[]{1, 2, 3};
+String to chararray
+ char[] ch = str.toCharArray();
+
+Arrays.toString(a); to print an array
+Arrays.deepToString(deepArray). Fo nested array
+
+
+Arrays.sort(a);
+Arrays.equals(b,a);
+
+
+Array to ArrayList
+New ArrayList<>(Arrays.asList(array))
+
+List<List<Integer>> finalList = new LinkedList<>();
+
+HashMap<Integer,Integer> map = new HashMap<>();
+int[][] and = new int[5][5]();
+for(Integer value: basket.values())
+{
+    Value
+}
+for(Integer key: keySet())
+{
+	key
+}
+
+map.put(1,1);
+map
+≈
+
+STRING
+s.split(“/+”) // split the string such that it gets splitter based on multiple slashes or single slash
+s.substring(start,end);   start inclusive and end exclusive
+ In simple words, == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.
+
+
+ // gives small first
+        // PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+
+
+StringBuilder s = new StringBuilder();
+s.append(“s)    // to add at last
+s.insert(0,“ss”)
+s.toString()
+
+
+
+REVERSE A STRING 
+
+String hi = “Hello Sarthak”
+new StringBuilder(hi).reverse().toString() 
+
