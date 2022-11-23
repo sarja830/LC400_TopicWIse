@@ -47,3 +47,36 @@ Two Pointer:
 
 Stack: 496 Next Greater Element I https://leetcode.com/problems/next-greater-element-i/solutions/2834477/easy-stack-based-solution/
 Stack: 496 Next Greater Element II https://leetcode.com/problems/next-greater-element-ii/solutions/2834504/easy-stack-based-solution-in-java/
+
+22nd Nov
+
+Heap: 295 Find Median from Data Stream https://leetcode.com/problems/find-median-from-data-stream/discuss/2840721/Fast-solution-in-java-using-heapspriority-queue-with-great-intuition
+
+
+
+
+
+
+DP PROBLEMS
+
+64 Minimum Path sum
+can move only in down or right falls under dp
+
+62 unique poths
+63 unique paths 2
+2304 Minimum Path Cost in a Grid
+https://leetcode.com/problems/minimum-path-sum/solutions/859749/why-is-this-dp-problem-can-it-not-be-done-using-bfs-similar-to-dijkstra-s-shortest-path-algorithm/
+
+
+
+graph:
+https://www.youtube.com/playlist?list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI 
+
+interval problems:
+435 Non-overlapping Intervals
+
+company wise:
+https://github.com/xizhengszhang/Leetcode_company_frequency
+
+https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
+
