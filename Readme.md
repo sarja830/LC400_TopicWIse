@@ -52,10 +52,49 @@ Stack: 496 Next Greater Element II https://leetcode.com/problems/next-greater-el
 
 Heap: 295 Find Median from Data Stream https://leetcode.com/problems/find-median-from-data-stream/discuss/2840721/Fast-solution-in-java-using-heapspriority-queue-with-great-intuition
 
+23rd Dec
+
+Stack: 316 Remove Duplicate Letters https://leetcode.com/problems/remove-duplicate-letters/solutions/2943904/stack-based-o-n-solution-in-java-easy-to-understand/
+       1081 Smallest Subsequence of Distinct Characters
+       739 Daily Temperatures https://leetcode.com/problems/daily-temperatures/solutions/2944059/java-stack-based-easy-solution/ 
 
 
+25th Dec
+Parallel prefix: 42 Trapping Rainwater: https://leetcode.com/problems/trapping-rain-water/solutions/2951167/java-easy-parallel-prefix-approach/
+
+29th Dec:
+DP:
+322 coin change:https://leetcode.com/problems/coin-change/solutions/3016119/easy-to-understand-java-solution-using-dp-approach/ 
+
+2nd January
+Greedy:
+121 Best time to buy and sell stock I: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/2987569/easy-java-based-solution/?orderBy=newest_to_oldest
+
+DP and Greedy:
+122 Best time to buy and sell stock II: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/solutions/2987907/easy-java-based-solution-both-the-approaches-dp-and-greedy/?orderBy=newest_to_oldest
+123 Best time to buy and sell stock III: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/solutions/2988646/two-appraoches/
+
+DP LCS: tech dose
+72 Edit Distance: https://leetcode.com/problems/edit-distance/solutions/2989991/easy-simple-dp-approach-with-comments-similar-to-lcs-approach-with-intuition/?orderBy=newest_to_oldest
+583 Delete Operation for Two Strings: https://leetcode.com/problems/delete-operation-for-two-strings/solutions/2990037/easy-java-dp-solution/
 
 
+5th January
+Binary Search:
+34 Find First and Last Position of Element in Sorted Array https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/solutions/3005228/easy-to-understand-java-code-using-binary-search/?orderBy=newest_to_oldest
+35 Search Insert Position:https://leetcode.com/problems/search-insert-position/solutions/3005347/easy-to-understand-generic-binary-search-algorithm-in-java/?orderBy=newest_to_oldest
+278 First Bad Version https://leetcode.com/problems/first-bad-version/solutions/3005411/easy-to-understand-java-solution-using-binary-search/
+
+6th January
+
+DP:
+198 House robber: https://leetcode.com/problems/house-robber/solutions/3006942/easy-to-understand-dp-solution-in-java-recursion-memoization-and-tabular-form/  
+
+
+7th January
+Two Pointer:
+15 3sum: https://leetcode.com/problems/3sum/solutions/3016244/easy-to-understand-java-solution-using-the-2-pointer-approach-with-intuition/ 
+16 3sumclosest: https://leetcode.com/problems/3sum-closest/solutions/3016328/easy-to-understand-solution-in-java-using-two-pointer-approach-with-intuition-similar-to-3sum/
 
 DP PROBLEMS
 
@@ -75,8 +114,12 @@ https://www.youtube.com/playlist?list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI
 interval problems:
 435 Non-overlapping Intervals
 
+
+
 company wise:
 https://github.com/xizhengszhang/Leetcode_company_frequency
 
 https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
+
+
 

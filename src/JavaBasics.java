@@ -4,6 +4,15 @@ public class JavaBasics {
 
     public static void main(String[] args) {
 
+//        Character to Integer
+        char a='1';
+        int a1=1;
+        System.out.println( Character.getNumericValue(a) );
+        System.out.println( Character.forDigit(a1,10) );
+        System.out.println( Character.valueOf('a'));
+
+
+
 //      Type conversion
         int integer =2;
         double adouble  =(double) 2;
@@ -43,9 +52,15 @@ public class JavaBasics {
         String stringValueOfChar = String.valueOf(character);
         System.out.println("character  to string value " +stringValueOfChar);
 
+//LIST collection interface
+        List<Integer> sourceList = new ArrayList<>();
+        sourceList.addAll(Arrays.asList(1,2,3,4));
+        sourceList.add(1);
+
 
 //set from list
-        List<Integer> sourceList = new ArrayList<>();
+
+sourceList.addAll(Arrays.asList(1,2,3,4));
         sourceList.add(1);
         sourceList.add(2);
         sourceList.add(2);
@@ -56,7 +71,7 @@ public class JavaBasics {
 
         Arrays.toString(nums);
 //        for nested array
-        int[] a= new int[]{5,4,3,2,1};
+        int[] ab= new int[]{5,4,3,2,1};
         int[] b= new int[]{5,4,3,2,1};
         int[][] deepArray= new int[][]{{5, 4, 3, 2, 1},{5,4,3,2,1},{5,4,3,2,1}};
         String deepArrayString =Arrays.deepToString(deepArray);
@@ -64,11 +79,11 @@ public class JavaBasics {
 
 
 //                sorting an array
-        Arrays.sort(a);
-        System.out.println(" sorted array " +a.toString());
+        Arrays.sort(ab);
+        System.out.println(" sorted array " +ab.toString());
 //        checking equality of 2 arrays
-        Arrays.equals(b,a);
-        System.out.println(" equality of array " +Arrays.equals(b,a));
+        Arrays.equals(b,ab);
+        System.out.println(" equality of array " +Arrays.equals(b,ab));
 
 
 

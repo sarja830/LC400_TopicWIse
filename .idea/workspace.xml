@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DP_Knapsack_Pattern/Knapsack01GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dijkstras/BlockCrusherKattis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BFS/BlockCrusherKattis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dijkstras/NetworkTimeDelay743.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dijkstras/NetworkTimeDelay743.java" afterDir="false" />
-    </list>
+    <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,10 +42,15 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/sarthakjain/Desktop/Leetcode400&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -56,13 +58,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dijkstras.BlockCrusherKattis">
-    <configuration name="BlockCrusherKattis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solutions.BlockCrusherKattis" />
+  <component name="RunManager" selected="Application.ThreeSum15">
+    <configuration name="AddStrings415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.AddStrings415" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Solutions.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousMedianKattis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.ContinuousMedianKattis" />
+    <configuration name="BestTImeToBuyAndSellStockIII123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.BestTImeToBuyAndSellStockIII123" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dijkstras.BlockCrusherKattis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dijkstras.BlockCrusherKattis" />
+    <configuration name="ContinuosSubarraySum523" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hashing.ContinuosSubarraySum523" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dijkstras.*" />
+          <option name="PATTERN" value="Hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FIndMedianFromStream297" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.FIndMedianFromStream297" />
+    <configuration name="FindFirstandLastPositionofElementinSortedArray34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.FindFirstandLastPositionofElementinSortedArray34" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Knapsack01GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP_Knapsack_Pattern.Knapsack01GFG" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DP_Knapsack_Pattern.*" />
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSum15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.ThreeSum15" />
+      <module name="LC_400_TopicWIse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dijkstras.BlockCrusherKattis" />
-        <item itemvalue="Application.BlockCrusherKattis" />
-        <item itemvalue="Application.Knapsack01GFG" />
-        <item itemvalue="Application.ContinuousMedianKattis" />
-        <item itemvalue="Application.FIndMedianFromStream297" />
+        <item itemvalue="Application.ThreeSum15" />
+        <item itemvalue="Application.AddStrings415" />
+        <item itemvalue="Application.FindFirstandLastPositionofElementinSortedArray34" />
+        <item itemvalue="Application.ContinuosSubarraySum523" />
+        <item itemvalue="Application.BestTImeToBuyAndSellStockIII123" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +166,23 @@
       <workItem from="1669040482635" duration="27791000" />
       <workItem from="1669245992621" duration="4403000" />
       <workItem from="1669262215394" duration="1761000" />
-      <workItem from="1669303290847" duration="6800000" />
+      <workItem from="1669303290847" duration="8010000" />
+      <workItem from="1669815302342" duration="598000" />
+      <workItem from="1669853125003" duration="2479000" />
+      <workItem from="1670020521723" duration="6823000" />
+      <workItem from="1670179189666" duration="1567000" />
+      <workItem from="1670195815967" duration="20283000" />
+      <workItem from="1670598049665" duration="602000" />
+      <workItem from="1671208193910" duration="636000" />
+      <workItem from="1671668128714" duration="11451000" />
+      <workItem from="1672340673069" duration="2436000" />
+      <workItem from="1672417175822" duration="599000" />
+      <workItem from="1672634028902" duration="1395000" />
+      <workItem from="1672687548911" duration="5685000" />
+      <workItem from="1672721782344" duration="718000" />
+      <workItem from="1672772621172" duration="7480000" />
+      <workItem from="1673037125683" duration="7645000" />
+      <workItem from="1673192179800" duration="1470000" />
     </task>
     <servers />
   </component>
@@ -377,33 +408,191 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/Knapsack01GFG.java</url>
-          <line>49</line>
+          <line>64</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/Knapsack01GFG.java</url>
-          <line>60</line>
+          <line>75</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/Knapsack01GFG.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/Knapsack01GFG.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/Knapsack01GFG.java</url>
-          <line>52</line>
+          <line>67</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/Knapsack01GFG.java</url>
-          <line>53</line>
+          <line>68</line>
           <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_1d/MaximumProfitinJobScheduling1235.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_1d/MaximumProfitinJobScheduling1235.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_1d/MaximumProfitinJobScheduling1235.java</url>
+          <line>34</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/Vowels.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/Vowels.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/Vowels.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/Vowels.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/Vowels.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/Vowels.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/Vowels.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Mall.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Mall.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/RemoveDuplicateLetters316.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/RemoveDuplicateLetters316.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/DailyTemperatures739.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/DailyTemperatures739.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Greedy/BestTImeToBuyAndSellStockIII123.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Greedy/BestTImeToBuyAndSellStockIII123.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Greedy/BestTImeToBuyAndSellStockIII123.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Greedy/BestTImeToBuyAndSellStockIII123.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Greedy/BestTImeToBuyAndSellStockIII123.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Hashing/ContinuosSubarraySum523.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Hashing/ContinuosSubarraySum523.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindFirstandLastPositionofElementinSortedArray34.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindFirstandLastPositionofElementinSortedArray34.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindFirstandLastPositionofElementinSortedArray34.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindFirstandLastPositionofElementinSortedArray34.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/AddStrings415.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/AddStrings415.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ThreeSum15.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Longest_Common_Substring_Center_Expansion/LongestPallindormicSubstring5.java</url>
@@ -432,6 +621,15 @@
           </properties>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../DSA/sort/MergeSort.java</url>
+          <line>55</line>
+          <properties class="sort.MergeSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="77" />
@@ -442,6 +640,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Leetcode400$ContinuousMedianKattis.ic" NAME="ContinuousMedianKattis Coverage Results" MODIFIED="1669153059060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Heap.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Leetcode400$BestTImeToBuyAndSellStockIII123.ic" NAME="BestTImeToBuyAndSellStockIII123 Coverage Results" MODIFIED="1672687565112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Greedy.*</FILTER>
     </SUITE>
   </component>
 </project>
