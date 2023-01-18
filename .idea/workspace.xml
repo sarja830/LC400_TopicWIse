@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="" />
+    <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FindTheDuplicateNumber287.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/CombinationSum39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/CombinationSumII40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/CombinationSumiii216.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/Permutations46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP_1d/FlipStringToMonotoneIncreasing926.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP_1d/MaximumSubarray53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP_1d/MaximumSumCIrcularSubarray918.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/KthLargestElementInAnArray215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestSubbstringWithoutRepeatingCharacters3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ThreeSumClosest16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ThreeSumClosest16.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +39,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2H5aF2HjfWxokr6O0ITOI0HscUc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,6 +65,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -58,13 +74,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSum15">
-    <configuration name="AddStrings415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.AddStrings415" />
+  <component name="RunManager" selected="Application.LongestSubbstringWithoutRepeatingCharacters3">
+    <configuration name="FindPivotIndex724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.FindPivotIndex724" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTImeToBuyAndSellStockIII123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy.BestTImeToBuyAndSellStockIII123" />
+    <configuration name="FindTheDuplicateNumber287" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.FindTheDuplicateNumber287" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Greedy.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuosSubarraySum523" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hashing.ContinuosSubarraySum523" />
+    <configuration name="InsertInterval57" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.InsertInterval57" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hashing.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstandLastPositionofElementinSortedArray34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.FindFirstandLastPositionofElementinSortedArray34" />
+    <configuration name="LongestSubbstringWithoutRepeatingCharacters3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.LongestSubbstringWithoutRepeatingCharacters3" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ThreeSum15" />
+    <configuration name="WordSearch79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.WordSearch79" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreeSum15" />
-        <item itemvalue="Application.AddStrings415" />
-        <item itemvalue="Application.FindFirstandLastPositionofElementinSortedArray34" />
-        <item itemvalue="Application.ContinuosSubarraySum523" />
-        <item itemvalue="Application.BestTImeToBuyAndSellStockIII123" />
+        <item itemvalue="Application.LongestSubbstringWithoutRepeatingCharacters3" />
+        <item itemvalue="Application.FindPivotIndex724" />
+        <item itemvalue="Application.FindTheDuplicateNumber287" />
+        <item itemvalue="Application.InsertInterval57" />
+        <item itemvalue="Application.WordSearch79" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +198,11 @@
       <workItem from="1672721782344" duration="718000" />
       <workItem from="1672772621172" duration="7480000" />
       <workItem from="1673037125683" duration="7645000" />
-      <workItem from="1673192179800" duration="1470000" />
+      <workItem from="1673192179800" duration="13734000" />
+      <workItem from="1673483497762" duration="2896000" />
+      <workItem from="1673834078074" duration="2791000" />
+      <workItem from="1673900519976" duration="1000" />
+      <workItem from="1673918477964" duration="6046000" />
     </task>
     <servers />
   </component>
@@ -594,6 +614,151 @@
           <line>6</line>
           <option name="timeStamp" value="159" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/MergeIntervals56.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/MergeIntervals56.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/MergeIntervals56.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/MergeIntervals56.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertInterval57.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertInterval57.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertInterval57.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertInterval57.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/WordSearch79.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/WordSearch79.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/WordSearch79.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/WordSearch79.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/WordSearch79.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/WordSearch79.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/WordSearch79.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/WordSearch79.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertInterval57.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertInterval57.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/InsertInterval57.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindPivotIndex724.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindPivotIndex724.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindPivotIndex724.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindPivotIndex724.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestSubbstringWithoutRepeatingCharacters3.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestSubbstringWithoutRepeatingCharacters3.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestSubbstringWithoutRepeatingCharacters3.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestSubbstringWithoutRepeatingCharacters3.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestSubbstringWithoutRepeatingCharacters3.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestSubbstringWithoutRepeatingCharacters3.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Longest_Common_Substring_Center_Expansion/LongestPallindormicSubstring5.java</url>
           <line>9</line>
@@ -640,6 +805,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Leetcode400$ContinuousMedianKattis.ic" NAME="ContinuousMedianKattis Coverage Results" MODIFIED="1669153059060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Heap.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Leetcode400$FindPivotIndex724.ic" NAME="FindPivotIndex724 Coverage Results" MODIFIED="1673834788240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Arrays.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Leetcode400$BestTImeToBuyAndSellStockIII123.ic" NAME="BestTImeToBuyAndSellStockIII123 Coverage Results" MODIFIED="1672687565112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Greedy.*</FILTER>

@@ -2,7 +2,7 @@ package Arrays;
 import java.util.*;
 public class ThreeSumClosest16 {
     public static void main(String[] args) {
-        threeSumClosest();
+        threeSumClosest(new int[]{1,2,3,4},5);
     }
     public static int threeSumClosest(int[] nums, int target) {
 
