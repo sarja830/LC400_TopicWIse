@@ -109,7 +109,7 @@ Two Pointer:
 
 9th January
 
-Sorting:
+Sorting and greedy:
 
 56 Merge Interval: https://leetcode.com/problems/merge-intervals/solutions/3026829/easy-to-understand-java-solution-using-sorting/?orderBy=newest_to_oldest
 
@@ -171,6 +171,129 @@ Heaps:
 53 maximum subarray: https://leetcode.com/problems/maximum-subarray/solutions/3065505/easy-to-understand-solution-in-java-using-dynamic-programming-also-known-as-kadanes-algorithm/?orderBy=newest_to_oldest 
 
 
+18th Jan
+
+recursion:
+
+22 Generate Parantheses: https://leetcode.com/problems/generate-parentheses/solutions/3070136/easy-to-understand-solution-in-java-using-recursion/?orderBy=hot
+
+
+
+19th Jan
+
+LinkedList and heaps:
+
+23 Merge k Sorted Lists: https://leetcode.com/problems/merge-k-sorted-lists/solutions/3074126/easy-to-understand-solution-in-java-using-priority-queue-in-o-nlog-k-along-with-o-nk-approach/
+
+https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
+https://leetcode.com/problems/ugly-number-ii/
+
+20th Jan
+
+Backtracking:
+
+78 Subsets: https://leetcode.com/problems/subsets/solutions/3078933/easy-to-understand-solution-in-java-using-backtracking-with-similar-questions/?orderBy=newest_to_oldest
+
+90 Subsets II: https://leetcode.com/problems/subsets-ii/solutions/3078414/easy-to-understand-solution-in-java-using-backtracking-with-similar-questions/?orderBy=newest_to_oldest
+
+784 Letter Case Permutation: https://leetcode.com/problems/letter-case-permutation/solutions/3078421/easy-to-understand-solution-in-java-using-recursion/
+
+Deque:
+
+239 Sliding Window Maximum: https://leetcode.com/problems/sliding-window-maximum/solutions/3078914/easy-to-understand-solution-in-java-using-deque-double-linkedlist-discussed-heap-approach-as-well/
+
+2d DP:
+
+62 Unique Paths: https://leetcode.com/problems/unique-paths/solutions/3082508/easy-to-understand-solution-in-java-using-bottom-up-dp-approach/?orderBy=newest_to_oldest
+
+63 unique pathsII: https://leetcode.com/problems/unique-paths-ii/solutions/3082525/easy-to-understand-solution-in-java-using-recursion-with-memoization/?orderBy=newest_to_oldest
+
+64 Minimum Path sum: https://leetcode.com/problems/minimum-path-sum/solutions/3087437/easy-to-understand-solution-in-java-using-recursion-with-memorization-and-other-similar-problems/
+
+21st Jan
+
+435 NonOverlappingIntervals: https://leetcode.com/problems/non-overlapping-intervals/solutions/3082415/easy-to-understand-solution-in-java-using-sorting-and-greedy-algorithm-along-with-similar-problems/
+
+
+22nd Jan:
+
+Linked List:
+
+206 Reverse Linked List: https://leetcode.com/problems/reverse-linked-list/solutions/3087308/easy-to-understand-iterative-solution-in-java-using-iterative-method-along-with-intuition/
+
+19 Remove Nth Node From End of List: https://leetcode.com/problems/remove-nth-node-from-end-of-list/solutions/3087420/easy-to-understand-solution-in-java-using-iterative-method/?orderBy=newest_to_oldest
+
+HASHING:
+
+2244 Minimum Rounds to Complete All Tasks: https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/solutions/3087403/easy-to-understand-solution-using-hash-map-and-greedy-approach/
+
+
+23rd Jan:
+
+Divide and Conquer:
+
+493 Reverse Pairs: https://leetcode.com/problems/reverse-pairs/solutions/3092132/easy-to-understand-solution-in-java-using-divide-and-conquer-technique-along-with-brute-force-tech/
+
+315 Count of Smaller Numbers After Self: https://leetcode.com/problems/count-of-smaller-numbers-after-self/solutions/3092411/easy-to-understand-solution-in-java-using-divide-and-conquer-along-with-other-similar-questions/?orderBy=newest_to_oldest
+
+24th January:
+
+Topological sort:
+
+207 Course Schedule: https://leetcode.com/problems/course-schedule/solutions/3095709/easy-to-understand-solution-in-java-using-topological-sortingbfs-version-kahns-algorithm/
+
+210 Course ScheduleII :https://leetcode.com/problems/course-schedule-ii/solutions/3095711/easy-to-understand-solution-in-java-using-topological-sort-along-with-other-similar-questions/
+
+49 Group anagrams: https://leetcode.com/problems/group-anagrams/solutions/3096073/easy-to-understand-self-explanatory-solution-in-java/
+
+26th January:
+
+StringFormationHackerRankTestSnowflake:
+to get good understanding of long
+
+
+5th Feb:
+673  Number of Longest Increasing Subsequence: https://leetcode.com/problems/number-of-longest-increasing-subsequence/solutions/3148926/easy-to-understand-solution-in-java-using-dynamic-programming-approach/?orderBy=newest_to_oldest
+
+6th feb
+
+57 Insert Interval: https://leetcode.com/problems/insert-interval/solutions/3150902/easy-to-understand-solution-in-java-using-binary-search-and-merge-interval-greedy-approach/?orderBy=newest_to_oldest
+452  Minimum Number of Arrows to Burst Balloons:https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/solutions/3153678/easy-to-understand-solution-in-java-using-greedy-approach-and-sorting-based-on-merge-interval/?orderBy=newest_to_oldest
+
+8th feb:
+
+128   Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence/solutions/3162266/easy-to-understand-solution-in-java-using-hashset/?orderBy=newest_to_oldest
+
+9th Feb:
+
+2472  Maximum Number of Non-overlapping Palindrome Substrings:  https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/solutions/3166035/easy-to-understand-solution-in-java-using-center-expansion-technique-in-o-n/
+
+131  Palindrome Partitioning: https://leetcode.com/problems/palindrome-partitioning/solutions/3165178/easy-to-understand-solution-in-java-using-backtracking/?orderBy=newest_to_oldest
+
+
+12th feb:
+
+44 wildcard matching: https://leetcode.com/problems/wildcard-matching/solutions/3176491/easy-to-understand-solution-in-java-using-bottom-up-dp-approach-similar-to-lcs/
+
+
+
+
+TODO:
+pallindrome partitioning
+Stacks and Queues
+LinkedLists
+https://leetcode.com/problem-list/top-interview-questions/?page=2
+soduku solver
+n queens
+
+
+
+
+
+
+
+
+
 study about comparator
 
 
@@ -181,7 +304,9 @@ DP PROBLEMS
 can move only in down or right falls under dp
 
 62 unique paths
+
 63 unique paths 2
+
 2304 Minimum Path Cost in a Grid
 https://leetcode.com/problems/minimum-path-sum/solutions/859749/why-is-this-dp-problem-can-it-not-be-done-using-bfs-similar-to-dijkstra-s-shortest-path-algorithm/
 
@@ -201,8 +326,15 @@ https://github.com/xizhengszhang/Leetcode_company_frequency
 https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
 
 
+509 fibonacci number: https://leetcode.com/problems/fibonacci-number/solutions/3129243/easy-to-understand-solution-in-java-using-all-the-approaches/
+
+
+climbing stairs: https://leetcode.com/problems/climbing-stairs/post-solution/?submissionId=889757356
+
 
 REVIST SLIGHT TOUGH QIESTIONS:
 56 merge interval
 57 insert interval
+
+
 

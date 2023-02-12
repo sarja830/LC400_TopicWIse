@@ -1,3 +1,5 @@
+import Heap.MergeKSortedList23;
+
 import java.math.BigInteger;
 import java.util.*;
 public class JavaBasics {
@@ -80,6 +82,14 @@ sourceList.addAll(Arrays.asList(1,2,3,4));
 
 //                sorting an array
         Arrays.sort(ab);
+
+
+//        sorting a 2d array
+        int[][] aaa = new int[][]{{-2147483646,-2147483645},{2147483646,2147483647}};
+        Arrays.sort(aaa,(ar,br)->Integer.compare(ar[0],br[0]));
+//        will not work in all the cases wont work in the above corner case
+        Arrays.sort(aaa,(ar,br)->ar[0]-br[0]);
+
         System.out.println(" sorted array " +ab.toString());
 //        checking equality of 2 arrays
         Arrays.equals(b,ab);
@@ -126,7 +136,11 @@ sourceList.addAll(Arrays.asList(1,2,3,4));
 
 
         // gives small first
-        // PriorityQueue<Integer> pq = new PriorityQueue<>();
+         PriorityQueue<Integer> pq = new PriorityQueue<>();
+//         if we want to create pq of explicit ojects in java
+//         PriorityQueue<MergeKSortedList23.ListNode> pq1 = new PriorityQueue<>((a, b)->a.val-b.val);
+
+
         StringBuilder sb = new StringBuilder();
         sb.append("s");    // to add at last
         sb.insert(0,'s');

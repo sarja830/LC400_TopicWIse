@@ -1,6 +1,8 @@
 package DP_1d;
 import java.util.*;
 
+//it didnt pass all test cases
+
 public class MaximumProfitinJobScheduling1235 {
 
     public static void main(String[] args) {
