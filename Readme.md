@@ -274,9 +274,34 @@ to get good understanding of long
 12th feb:
 
 44 wildcard matching: https://leetcode.com/problems/wildcard-matching/solutions/3176491/easy-to-understand-solution-in-java-using-bottom-up-dp-approach-similar-to-lcs/
+2562  Find the Array Concatenation Value: https://leetcode.com/problems/find-the-array-concatenation-value/solutions/3176854/easy-to-understand-solution-in-java-using-pow-and-log10/
+
+
+18th Feb:
+
+226. Invert Binary Tree: https://leetcode.com/problems/invert-binary-tree/solutions/3201641/easy-to-understand-solution-in-java-using-postorder-traversal-with-intuition/?orderBy=hot
+2415. Reverse Odd Levels of Binary Tree: https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/solutions/3202134/easy-to-understand-solution-in-java-using-bfs-and-stacks/
+113. Path Sum II:    https://leetcode.com/problems/path-sum-ii/solutions/3202097/easy-to-understand-solution-in-java-using-recursion-and-backtracking/
+24. Swap Nodes in Pairs: https://leetcode.com/problems/swap-nodes-in-pairs/solutions/3202322/easy-to-understand-solution-in-java-using-iterative-approach/
 
 
 
+19th feb
+18. 4Sum: https://leetcode.com/problems/4sum/solutions/3206640/easy-to-understand-solution-in-java-using-2-pointers-similar-to-three-sum/
+1249. Minimum Remove to Make Valid Parentheses: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/solutions/3207557/easy-to-understand-solution-in-java-using-stacks/
+1963. Minimum Number of Swaps to Make the String Balanced: https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/solutions/3207611/easy-to-understand-solution-in-java-using-stacks-with-greedy-approach/
+921. Minimum Add to Make Parentheses Valid:  https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/solutions/3207628/easy-to-understand-solution-in-java-using-stacks-and-greedy-approach/
+856. Score of Parentheses:  https://leetcode.com/problems/score-of-parentheses/solutions/3207706/easy-to-understand-solution-in-java-using-stack-based-greedy-approach/
+
+
+20th feb
+1541. Minimum Insertions to Balance a Parentheses String: https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/solutions/3212043/easy-to-understand-solution-in-java-using-greedy-approach-with-stack/
+
+21st Feb
+853. Car Fleet: https://leetcode.com/problems/car-fleet/solutions/3216544/easy-to-understand-solution-in-java-using-sorting/
+
+24th Feb
+124. Binary Tree Maximum Path Sum https://leetcode.com/problems/binary-tree-maximum-path-sum/solutions/3225722/easy-to-understand-solution-in-java-using-recursion/?orderBy=hot
 
 TODO:
 pallindrome partitioning
@@ -288,7 +313,7 @@ n queens
 
 
 
-
+https://leetcode.com/Nam_22/
 
 
 

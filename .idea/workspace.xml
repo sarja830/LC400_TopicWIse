@@ -5,35 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BFS/UglyNumberII264.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_1d/NumberOfLIS673.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_2d/MinimumPathSum64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_2d/UniquePaths62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_2d/UniquePathsII63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_LCS_BASE/WildcardMatching44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideAndConquer/CountOfSmallerNumberAfterSelf315.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideAndConquer/ReversePairs493.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/LongestConsecutiveSequence128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/SubarraySumDivisibleByK974.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/MergeKSortedList23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/Circle1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/Constructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Longest_Common_Substring_Center_Expansion/MaximumNumberofNonOverlappingPalindromeSubstrings2472.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/StringFormationHackerRankTestSnowflake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/SlidingWIndowMaximum239.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MinimumNumberOfArrowsToBurstBalloons452.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/NonOverlappingIntervals435.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FindtheArrayConcatenationValue2562.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignCache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/TopKFrequentElements347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/AWKJa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/Collection-framework-hierarchy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prefix/ProductofArrayExceptSelf238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/CarFleet853.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/ScoreofParentheses856.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC_400_TopicWIse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LC_400_TopicWIse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP_1d/MaximumProfitinJobScheduling1235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP_1d/MaximumProfitinJobScheduling1235.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/InsertInterval57.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InsertInterval57.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +74,22 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WildcardMatching44">
-    <configuration name="Circle1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Circle1" />
+  <component name="RunManager" selected="Application.CarFleet853">
+    <configuration name="CarFleet853" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.CarFleet853" />
+      <module name="LC_400_TopicWIse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.CollectionInterface" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
@@ -104,25 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Constructors" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.HeapSort" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumNumberofNonOverlappingPalindromeSubstrings2472" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Longest_Common_Substring_Center_Expansion.MaximumNumberofNonOverlappingPalindromeSubstrings2472" />
-      <module name="LC_400_TopicWIse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Longest_Common_Substring_Center_Expansion.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Shape" />
+    <configuration name="RemoveInvalidParantheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.RemoveInvalidParantheses" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasics.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildcardMatching44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP_LCS_BASE.WildcardMatching44" />
+    <configuration name="TopKFrequentElements347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.TopKFrequentElements347" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DP_LCS_BASE.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WildcardMatching44" />
-        <item itemvalue="Application.MaximumNumberofNonOverlappingPalindromeSubstrings2472" />
-        <item itemvalue="Application.Shape" />
-        <item itemvalue="Application.Circle1" />
-        <item itemvalue="Application.Constructors" />
+        <item itemvalue="Application.CarFleet853" />
+        <item itemvalue="Application.CollectionInterface" />
+        <item itemvalue="Application.TopKFrequentElements347" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.RemoveInvalidParantheses" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +213,13 @@
       <workItem from="1675818346585" duration="33000" />
       <workItem from="1675901957869" duration="8635000" />
       <workItem from="1676211041723" duration="1029000" />
+      <workItem from="1676213783968" duration="2578000" />
+      <workItem from="1676315983604" duration="2357000" />
+      <workItem from="1676656599967" duration="915000" />
+      <workItem from="1676731780977" duration="3976000" />
+      <workItem from="1676842413826" duration="4356000" />
+      <workItem from="1676902942570" duration="9675000" />
+      <workItem from="1676999762764" duration="2998000" />
     </task>
     <servers />
   </component>
@@ -1004,6 +995,186 @@
           <line>12</line>
           <option name="timeStamp" value="265" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindtheArrayConcatenationValue2562.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindtheArrayConcatenationValue2562.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/FindtheArrayConcatenationValue2562.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/ProductofArrayExceptSelf238.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/ProductofArrayExceptSelf238.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prefix/ProductofArrayExceptSelf238.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LRUCache.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LRUCache.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LRUCache.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/ScoreofParentheses856.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/ScoreofParentheses856.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/HeapSort.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/HeapSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/HeapSort.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/HeapSort.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/HeapSort.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/TopKFrequentElements347.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/CarFleet853.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/CarFleet853.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/CarFleet853.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/CarFleet853.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/CarFleet853.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/CarFleet853.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Longest_Common_Substring_Center_Expansion/LongestPallindormicSubstring5.java</url>
           <line>9</line>
@@ -1039,6 +1210,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java</url>
+          <line>19</line>
+          <properties class="Recursion.RemoveInvalidParantheses" method="rec">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="280" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
