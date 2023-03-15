@@ -4,6 +4,8 @@ public class CollectionInterface {
 //Collection Interface
 //    List, Set, Queue
 
+
+
     //    List <T> al = new ArrayList<> ();
 //
 //    List <T> ll = new LinkedList<> ();
@@ -34,6 +36,13 @@ public class CollectionInterface {
     public static void main(String[] args) {
         List<Pair> list = new LinkedList<Pair>();
         list.add(new Pair(1, 2));
+
+
+//    List of int[] to array of int[][]
+        List<int[]> ans = new ArrayList<>();
+        Collections.addAll(ans,new int[]{1,2}, new int[]{1,2}, new int[]{1,2});
+        int[][] ansar = ans.toArray(new int[ans.size()][]);
+
         Collections.addAll(list, new Pair(11,2),new Pair(12,12),new Pair(13,112));
         Collections.reverse(list);
         List<Integer> original = new LinkedList();
@@ -46,6 +55,7 @@ public class CollectionInterface {
         copied.clear();
 //      It is used to get the comparator that imposes the reverse of the natural ordering on a collection of objects which implement the Comparable interface.
         PriorityQueue<Pair> pq= new PriorityQueue<>(Collections.reverseOrder());
+        //dont forget to write public in int compare
         Comparator<Pair> c = new Comparator<Pair>() {
             @Override
             public int compare(Pair o1, Pair o2) {

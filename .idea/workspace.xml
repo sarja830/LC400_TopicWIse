@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FindtheArrayConcatenationValue2562.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignCache/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/TopKFrequentElements347.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/AWKJa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/Collection-framework-hierarchy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prefix/ProductofArrayExceptSelf238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/RemoveInvalidParantheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/CarFleet853.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/ScoreofParentheses856.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MultiplyStrings43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP_2d/HackerEarthGoogle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/HashMapImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarFleet853">
+  <component name="RunManager" selected="Application.HackerEarthGoogle">
     <configuration name="CarFleet853" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.CarFleet853" />
       <module name="LC_400_TopicWIse" />
@@ -101,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.HeapSort" />
+    <configuration name="HackerEarthGoogle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP_2d.HackerEarthGoogle" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="DP_2d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveInvalidParantheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.RemoveInvalidParantheses" />
+    <configuration name="MultiplyStrings43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.MultiplyStrings43" />
       <module name="LC_400_TopicWIse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,13 +146,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Java Scratch" nameIsGenerated="true">
+      <module name="LC_400_TopicWIse" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.HackerEarthGoogle" />
+      <item itemvalue="Application.CarFleet853" />
+      <item itemvalue="Application.CollectionInterface" />
+      <item itemvalue="Application.MultiplyStrings43" />
+      <item itemvalue="Application.TopKFrequentElements347" />
+      <item itemvalue="Java Scratch.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HackerEarthGoogle" />
+        <item itemvalue="Application.MultiplyStrings43" />
         <item itemvalue="Application.CarFleet853" />
         <item itemvalue="Application.CollectionInterface" />
         <item itemvalue="Application.TopKFrequentElements347" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.RemoveInvalidParantheses" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +229,14 @@
       <workItem from="1676842413826" duration="4356000" />
       <workItem from="1676902942570" duration="9675000" />
       <workItem from="1676999762764" duration="2998000" />
+      <workItem from="1677254296800" duration="789000" />
+      <workItem from="1677348435508" duration="4989000" />
+      <workItem from="1677717920404" duration="1324000" />
+      <workItem from="1677898274347" duration="1983000" />
+      <workItem from="1677958818867" duration="27000" />
+      <workItem from="1678544193907" duration="1365000" />
+      <workItem from="1678666228967" duration="2038000" />
+      <workItem from="1678830913358" duration="2271000" />
     </task>
     <servers />
   </component>
@@ -1112,37 +1129,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
-          <line>36</line>
+          <line>45</line>
           <option name="timeStamp" value="291" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="292" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
-          <line>47</line>
+          <line>56</line>
           <option name="timeStamp" value="293" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
-          <line>45</line>
+          <line>54</line>
           <option name="timeStamp" value="294" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
-          <line>58</line>
+          <line>68</line>
           <option name="timeStamp" value="296" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
-          <line>56</line>
+          <line>66</line>
           <option name="timeStamp" value="297" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java</url>
-          <line>60</line>
+          <line>70</line>
           <option name="timeStamp" value="298" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1174,6 +1191,26 @@
           <url>file://$PROJECT_DIR$/src/Sorting/CarFleet853.java</url>
           <line>13</line>
           <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/MultiplyStrings43.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/MultiplyStrings43.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_2d/HackerEarthGoogle.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_2d/HackerEarthGoogle.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="318" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Longest_Common_Substring_Center_Expansion/LongestPallindormicSubstring5.java</url>
@@ -1219,6 +1256,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/MultiplyStrings43.java</url>
+          <line>3</line>
+          <properties class="Arrays.MultiplyStrings43">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DP_2d/HackerEarthGoogle.java</url>
+          <line>6</line>
+          <properties class="DP_2d.HackerEarthGoogle" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="314" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />

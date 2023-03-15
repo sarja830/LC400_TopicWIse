@@ -303,6 +303,33 @@ to get good understanding of long
 24th Feb
 124. Binary Tree Maximum Path Sum https://leetcode.com/problems/binary-tree-maximum-path-sum/solutions/3225722/easy-to-understand-solution-in-java-using-recursion/?orderBy=hot
 
+
+25th feb
+347. Top K Frequent Elements: https://leetcode.com/problems/top-k-frequent-elements/solutions/3229943/easy-to-understand-solution-in-java-using-hash-map-and-heaps/?orderBy=hot
+
+1st march
+986. Interval List Intersections: https://leetcode.com/problems/interval-list-intersections/solutions/3245607/easy-to-understand-solution-in-java-using-2-pointer-method/
+
+11th march:
+463. Island Perimeter: https://leetcode.com/problems/island-perimeter/solutions/3284448/easy-to-understand-solution-in-java-using-recursion-and-normal-tabular-method/
+
+12th march:
+74. Search a 2D Matrix: https://leetcode.com/problems/search-a-2d-matrix/solutions/3290096/easy-to-understand-solution-in-java-using-both-the-approaches-binary-search-optimized-brute-force/
+
+14th march:
+378. Kth Smallest Element in a Sorted Matrix: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solutions/3298138/easy-to-understand-solution-in-java-using-2approaches-binary-search-and-optimized-counting-and-heap/
+668. Kth Smallest Number in Multiplication Table:  https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/solutions/3298180/easy-to-understand-solution-in-java-using-binary-search-and-optimized-count-algorithm/?orderBy=most_votes
+
+
+BINARY SEARCH TEMPLATE:
+https://leetcode.com/discuss/study-guide/1529866/solving-kth-kind-of-problems
+https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/solutions/769703/Python-Clear-explanation-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+
+
+starred Questions:
+378. Kth Smallest Element in a Sorted Matrix: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solutions/3298138/easy-to-understand-solution-in-java-using-2approaches-binary-search-and-optimized-counting-and-heap/ 
+
+
 TODO:
 pallindrome partitioning
 Stacks and Queues
