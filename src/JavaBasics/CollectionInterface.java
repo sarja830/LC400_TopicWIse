@@ -74,7 +74,7 @@ public class CollectionInterface {
         Collection<Integer> c111 = new ArrayList<>();
         Collections.addAll(c111,1,1,1,1,1,1,12,1,2,1,2,1,2,1,12);
         PriorityQueue<Integer> pq1 = new PriorityQueue<Integer>( c111);
-
+        System.out.println("hello "+pq1.poll());
 
 /*
 //        PRIORITY QUEUE CLASS

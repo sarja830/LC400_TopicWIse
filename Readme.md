@@ -320,15 +320,72 @@ to get good understanding of long
 378. Kth Smallest Element in a Sorted Matrix: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solutions/3298138/easy-to-understand-solution-in-java-using-2approaches-binary-search-and-optimized-counting-and-heap/
 668. Kth Smallest Number in Multiplication Table:  https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/solutions/3298180/easy-to-understand-solution-in-java-using-binary-search-and-optimized-count-algorithm/?orderBy=most_votes
 
+15th march:
+719. Find K-th Smallest Pair Distance: https://leetcode.com/problems/find-k-th-smallest-pair-distance/solutions/3300407/easy-to-understand-solution-in-java-using-binary-search-and-optimized-counting/?orderBy=most_votes
+875. Koko Eating Bananas:  https://leetcode.com/problems/koko-eating-bananas/solutions/3302099/easy-to-understand-solution-in-java-using-binary-search-and-optimized-counting/?orderBy=most_votes
+1011. Capacity To Ship Packages Within D Days: https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/solutions/3302089/easy-to-understand-solution-in-java-using-binary-search-and-optimized-counting-approach/
 
+
+16th march:
+2226  Maximum Candies Allocated to K Children: https://leetcode.com/problems/maximum-candies-allocated-to-k-children/solutions/3305578/easy-to-understand-solution-in-java-using-binary-search-and-optimized-routing/
+
+18th march:
+reference : https://www.youtube.com/watch?v=bcAwHkL7A3A
+410. Split Array Largest Sum: https://leetcode.com/problems/split-array-largest-sum/solutions/3311908/easy-to-understand-solution-in-java-using-binary-search/?orderBy=hot
+1482. Minimum Number of Days to Make m Bouquets: https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/solutions/3312484/easy-to-understand-solution-in-java-using-binary-search-and-optimized-counting-approach/
+
+19th march:
+904. rotting oranges: https://leetcode.com/problems/rotting-oranges/solutions/3321492/easy-to-understand-solution-in-java-using-bfs/
+
+21st march:
+2348. Number of Zero-Filled Subarrays: https://leetcode.com/problems/number-of-zero-filled-subarrays/solutions/3326545/easy-to-understand-solution-in-java/?orderBy=most_votes
+
+
+26th march:
+41. First Missing Positive: https://leetcode.com/problems/first-missing-positive/solutions/3345100/easy-to-understand-solution-in-java-using-swap-logic-most-efficient-approach-in-o-n-tc-and-o-1-sc/
+36. Valid Sudoku: https://leetcode.com/problems/valid-sudoku/solutions/3344869/easy-to-understand-solution-in-java-using-hashes/?orderBy=most_votes
 BINARY SEARCH TEMPLATE:
 https://leetcode.com/discuss/study-guide/1529866/solving-kth-kind-of-problems
 https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/solutions/769703/Python-Clear-explanation-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
 
+7th April
+84. Largest Rectangle in Histogram: https://leetcode.com/problems/largest-rectangle-in-histogram/solutions/3390455/easy-to-understand-solution-in-java-using-stack-with-2-pass/
+1pass solution: https://www.youtube.com/watch?v=jC_cWLy7jSI
+Stack
 
 starred Questions:
 378. Kth Smallest Element in a Sorted Matrix: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solutions/3298138/easy-to-understand-solution-in-java-using-2approaches-binary-search-and-optimized-counting-and-heap/ 
 
+
+
+12th April:
+91. Decode ways: https://leetcode.com/problems/decode-ways/solutions/3410539/easy-to-understand-solution-in-java-using-dynamic-programming-both-ways-memoization-and-top-down/
+
+
+13th april
+946. Validate Stack Sequences: https://leetcode.com/problems/validate-stack-sequences/solutions/3412647/easy-to-understand-solution-in-java-using-stack-simulation/
+43. Multiply Strings: https://leetcode.com/problems/multiply-strings/solutions/3412825/easy-to-understand-solution-in-java/
+97. Interleaving String: https://leetcode.com/problems/interleaving-string/solutions/3412966/easy-to-understand-solution-in-java-using-dp-recursion-with-memoization-self-intuitive-code/?orderBy=most_votes
+120. Triangle: https://leetcode.com/problems/triangle/solutions/3413079/easy-to-understand-solution-in-java-using-recursion-with-memoization/
+
+14th april:
+221. Maximal Square: https://leetcode.com/problems/maximal-square/solutions/3416297/easy-to-understand-solution-in-java-using-top-down-dp/?orderBy=most_votes
+152. Maximum Product Subarray: https://leetcode.com/problems/maximum-product-subarray/solutions/3416376/easy-to-understand-solution-in-java-using-dynamic-programing/
+
+
+16th april:
+518. coin change 2: https://leetcode.com/problems/coin-change-ii/solutions/3423756/easy-to-understand-solution-in-java-using-top-down-dynamic-programming/
+
+
+19th april
+169. majority element 1 : https://leetcode.com/problems/majority-element/solutions/3434720/easy-to-understand-solution-in-java-using-the-boyer-moore-voting-algorithm/ 
+229. majority element 2 : https://leetcode.com/problems/majority-element-ii/solutions/3434816/easy-to-understand-solution-in-java-using-bayes-moores-voting-algorithm/?orderBy=most_votes 
+752. Open the Lock: https://leetcode.com/problems/open-the-lock/solutions/3436354/easy-to-understand-solution-in-java-using-bfs/?orderBy=most_votes
+
+
+
+27th april:
+1937. Maximum Number of Points with Cost: https://leetcode.com/problems/maximum-number-of-points-with-cost/solutions/3460926/easy-to-understand-solution-in-java-using-dp-and-pre-computation-using-prefix-and-suffix-max/?orderBy=most_votes
 
 TODO:
 pallindrome partitioning

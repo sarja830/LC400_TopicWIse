@@ -9,6 +9,12 @@ public class JavaBasics {
 //        Character to Integer
         char a='1';
         int a1=1;
+        int ascii = 97;
+        char asciiChar = (char)(ascii);
+        int digit = '1'-'0'; //ascii of "1"
+        char charDigit = (char)(digit+'0');
+
+        System.out.println(charDigit);
         System.out.println( Character.getNumericValue(a) );
         System.out.println( Character.forDigit(a1,10) );
         System.out.println( Character.valueOf('a'));
