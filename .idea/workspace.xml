@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/CanPlaceFLowers605.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BFS/DetonateTheMaximumBombs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BFS/OpenTheLock752.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FindKthSmallestDistancePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/KokoEatingBananas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/hIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_1d/DecodeWays91.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_Knapsack_Pattern/q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/SequentialStringHackerRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/SubArraySumEqualsK560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/WhatsApp Image 2023-05-03 at 21.20.41 (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/WhatsApp Image 2023-05-03 at 21.20.41 (2).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/WhatsApp Image 2023-05-03 at 21.20.41.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/SubarrayProductLessThank713.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/SortingAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/ValidPallindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTES/GraphAlgorithms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/basics/LowerBound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestRepeatingCharacterReplacement424.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ThreeSum15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ThreeSum15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/CollectionInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,27 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sarthakjain/Desktop/Leetcode400&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/sarthakjain/Desktop/Leetcode400",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -287,7 +269,10 @@
       <workItem from="1684339535192" duration="936000" />
       <workItem from="1684340482188" duration="21000" />
       <workItem from="1684340517270" duration="4763000" />
-      <workItem from="1687183748334" duration="5806000" />
+      <workItem from="1687183748334" duration="7833000" />
+      <workItem from="1687802351718" duration="653000" />
+      <workItem from="1687963301979" duration="2465000" />
+      <workItem from="1689338741600" duration="6985000" />
     </task>
     <servers />
   </component>
@@ -1612,6 +1597,66 @@
           <url>file://$PROJECT_DIR$/src/BinarySearch/hIndex.java</url>
           <line>11</line>
           <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestRepeatingCharacterReplacement424.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestRepeatingCharacterReplacement424.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestRepeatingCharacterReplacement424.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="449" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Longest_Common_Substring_Center_Expansion/LongestPallindormicSubstring5.java</url>

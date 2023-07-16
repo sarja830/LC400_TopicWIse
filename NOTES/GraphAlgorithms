@@ -1,0 +1,6 @@
+Four Main Algorithms:
+
+1. Dijkstra's algorithm      |   shortest path from one node to other node    |   Elog(V)
+2. Bellman Ford algorithm    |   shortest path from one node to other node    |   EV
+3. Prims algorithm           |   minimum spanning tree                        |
+4. Kruskal's algorithm       |   minimum spanning tree                        |
