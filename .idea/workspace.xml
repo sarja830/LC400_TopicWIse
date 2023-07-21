@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NOTES/GraphAlgorithms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FindRightInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/basics/LowerBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestRepeatingCharacterReplacement424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BInaryTree/BInaryTree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/MagneticForceBetweenTwoBalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ReverseWordsInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,27 +41,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TODO_SCOPE": "All Places",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/sarthakjain/Desktop/Leetcode400",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sarthakjain/Desktop/Leetcode400&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -74,7 +72,7 @@
       <command value="MergeSort" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="CollectionInterface" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="JavaBasics.CollectionInterface" />
@@ -272,7 +270,10 @@
       <workItem from="1687183748334" duration="7833000" />
       <workItem from="1687802351718" duration="653000" />
       <workItem from="1687963301979" duration="2465000" />
-      <workItem from="1689338741600" duration="6985000" />
+      <workItem from="1689338741600" duration="10754000" />
+      <workItem from="1689683170139" duration="2015000" />
+      <workItem from="1689775990616" duration="5769000" />
+      <workItem from="1689943567392" duration="3626000" />
     </task>
     <servers />
   </component>
@@ -1657,6 +1658,51 @@
           <url>file://$PROJECT_DIR$/src/SlidingWindow/LongestRepeatingCharacterReplacement424.java</url>
           <line>28</line>
           <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/MagneticForceBetweenTwoBalls.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/MagneticForceBetweenTwoBalls.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/MagneticForceBetweenTwoBalls.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/MagneticForceBetweenTwoBalls.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/MagneticForceBetweenTwoBalls.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/MagneticForceBetweenTwoBalls.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/ReverseWordsInString.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/ReverseWordsInString.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/ReverseWordsInString.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="459" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Longest_Common_Substring_Center_Expansion/LongestPallindormicSubstring5.java</url>
