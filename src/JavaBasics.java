@@ -14,6 +14,12 @@ public class JavaBasics {
         int digit = '1'-'0'; //ascii of "1"
         char charDigit = (char)(digit+'0');
 
+        String abra = "abra";
+        String dabra ="dabra";
+        System.out.println("abra lexicographicaly compared to dabra abra.compareTo(dabra) "+abra.compareTo(dabra));
+        System.out.println("dabra lexicographicaly compared to abra abra.compareTo(dabra)"+dabra.compareTo(abra));
+
+
         System.out.println(charDigit);
         System.out.println( Character.getNumericValue(a) );
         System.out.println( Character.forDigit(a1,10) );
