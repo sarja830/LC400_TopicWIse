@@ -8,9 +8,9 @@ Take, for example, a sorted range
 1 2 3 4 5 5 5 6 7 9
 In a binary search for 3, we will have
 
-v-- lower bound
+    v-- lower bound
 1 2 3 4 5 5 5 6 7 9
-^-- upper bound
+    ^-- upper bound
 And in a binary search for 5:
 
        v-- lower bound
@@ -60,23 +60,21 @@ class Solution {
 ```java
 
 public class Solution {
-    public static int upperBound(int []nums, int target, int n){
-        //don't forget to initialize ans =n
-        int low=0,  high= n-1, ans =n;
-       while(low<=high)
-       {
-           int mid = low+ (high- low)/2;
-           // find the leftmost element which is greater than target
-           if(nums[mid]>target)
-           {
-               ans= mid;
-               high = mid-1;
-           }
-           else{
-               low = mid +1;
-           }
-       }
-       return ans;
+    public static int upperBound(int []nums, int x, int n){
+        int low=0,  high= n-1,ans =n;
+        while(low<=high)
+        {
+            int mid = low+ (high-low)/2;
+            if(nums[mid]>x)
+            {
+                ans= mid;
+                high = mid-1;
+            }
+            else{
+                low = mid +1;
+            }
+        }
+        return ans;
 
     }
 }
@@ -97,7 +95,7 @@ class Solution {
                 return mid;
             //check if it is left sorted or right sorted
             // it will be either left or right sorted or both 
-            
+                
                 //condition for right sorted
             else if(nums[mid]<nums[low])
             {
@@ -172,7 +170,7 @@ class Solution {
             //left half is sorted
             if(nums[mid]>=nums[low])
             {
-                ans=Math.min(ans,nums[low]);
+                ans=Math.min(ans,numsz[low]);
                 low=mid+1;
             }
             //right half is sorted

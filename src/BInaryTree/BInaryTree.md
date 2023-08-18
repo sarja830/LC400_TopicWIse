@@ -159,6 +159,31 @@ class Solution {
 }
 ```
 
+### 687. Longest Univalue Path
+```java
+
+class Solution {
+    int max;
+    public int longestUnivaluePath(TreeNode root) {
+        max=0;
+        rec(root,-1);
+        return max;
+    }
+    int rec(TreeNode root, int prev)
+    {
+        if(root==null) return 0;
+        int l =rec(root.left,root.val);
+        int r =rec(root.right,root.val);
+        max=Math.max(1+l+r-1,max);
+        if(prev==root.val)
+            return 1+Math.max(l,r);
+        else
+            return 0;
+
+    }
+}
+```
+
 ### Same tree
 ```java
 class Solution {
@@ -211,6 +236,7 @@ class Solution {
 ```
 
 ## DFS traversal questions
+
 ### right side view of binary tree
 ```java
 
@@ -266,7 +292,9 @@ class Solution {
          return list;
     }
 }
+
 ```
+
 ### Symmetric tree
 ```java
 class Solution {
@@ -355,7 +383,6 @@ class Solution {
 
 ### 129. Sum Root to Leaf Numbers 
 
-
 ```java
 
 class Solution {
@@ -382,13 +409,437 @@ class Solution {
 }
 ```
 
-
 ### 113. Path Sum II (from root to leaf)
+
 ```java
+class Solution {
+    int target;
+    List<List<Integer>> ans;
+    public List<List<Integer>> pathSum(TreeNode root, int targetSum)    
+    {
+        this.target = targetSum;
+        ans = new LinkedList();
+        backtrack(new LinkedList() , root, 0);
+        return ans;
+    }
+   void backtrack(List<Integer> list , TreeNode root, int sum)
+    {
+        if(root==null) return;
+        list.add(root.val);
+        if(root.left ==null && root.right==null && sum+root.val == target)
+        {
+            ans.add(new LinkedList(list));
+           list.remove(list.size()-1);
+            return;
+        }
+        backtrack(list,root.left,sum+root.val);
+        backtrack(list,root.right,sum+root.val);
+        list.remove(list.size()-1);
+    }
+}
 
 ```
 
 ### 112. Path Sum (from root to leaf)
 ```java
 
+```
+
+## Miscellenous 
+
+### 236. Lowest Common Ancestor of a Binary Tree
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    
+       if(root==null || root==p || root==q) return root;
+
+       
+        TreeNode left = lowestCommonAncestor(root.left,p,q);
+        TreeNode right = lowestCommonAncestor(root.right,p,q);      
+        if(left == null)
+            return right;
+        else if(right==null)
+            return left;
+        else   
+            return root;
+
+    }
+}
+```
+
+
+## BFS Hard
+
+### 662. Maximum Width of Binary Tree
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public int widthOfBinaryTree(TreeNode root) {
+        Queue<TreeNode>  q = new LinkedList();
+        Queue<Integer> qno = new LinkedList();
+        int min=Integer.MIN_VALUE;
+        int max = 0;
+        q.add(root);
+        qno.add(0);
+        while(!q.isEmpty())
+        {
+            int siz=q.size();
+           
+            for(int i=0;i<siz;i++)
+            {
+                TreeNode temp= q.poll();
+                int tempNo= qno.poll();
+                if(i==0) min=tempNo;
+                if(i==siz-1) max = Math.max(max,tempNo-min+1);
+                if(temp.left!=null){
+                     q.add(temp.left);
+                     qno.add(2*tempNo+1-(2*min-1));
+                }
+                if(temp.right!=null) 
+                {
+                    q.add(temp.right);
+                    qno.add(2*(tempNo)+2-(2*min-1));
+                }
+
+            }
+        }
+        return max;
+    }
+}
+```
+
+## Double BFS 
+
+### 863. All Nodes Distance K in Binary Tree
+
+```java
+class Solution {
+    public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
+        //first bfs to traverse and make a map
+        List<Integer> ans = new LinkedList();
+        Queue<TreeNode> q = new LinkedList();
+        HashMap<TreeNode, TreeNode> map = new HashMap();
+        q.add(root);
+        TreeNode temp;
+        while(!q.isEmpty())
+        {
+            temp = q.poll();
+            if(temp.left!=null)
+            {
+                q.add(temp.left);
+                map.put(temp.left,temp);
+            }
+            if(temp.right!=null)
+            {
+                q.add(temp.right);
+                map.put(temp.right,temp);
+            }
+        }
+        HashSet<TreeNode>  visited = new HashSet();
+        q.clear();
+        q.add(target);
+        visited.add(target);
+        while(!q.isEmpty())
+        {
+            int siz = q.size();
+            if(k==0)
+            {
+                for(int j=0;j<siz;j++)
+                {
+                    ans.add(q.poll().val);
+                }
+                return ans;
+            }
+            for(int i=0;i<siz;i++)
+            {
+                temp = q.poll();
+                if(temp.left!=null)
+                {
+                    if(!visited.contains(temp.left))
+                        q.add(temp.left);
+                    visited.add(temp.left);
+                }
+                if(temp.right!=null)
+                {
+                    if(!visited.contains(temp.right))
+                        q.add(temp.right);
+                    visited.add(temp.right);
+                }   
+                if(map.containsKey(temp))
+                {
+                     if(!visited.contains(map.get(temp)))
+                        q.add(map.get(temp));
+                    visited.add(map.get(temp));
+                }   
+            }
+            k--;
+        }
+        return ans;
+    }
+}
+```
+
+### 2385. Amount of Time for Binary Tree to Be Infected
+
+```java
+class Solution {
+    public int amountOfTime(TreeNode root, int start) {
+         
+         TreeNode target = null;
+         //first bfs to traverse and make a map
+        List<Integer> ans = new LinkedList();
+        Queue<TreeNode> q = new LinkedList();
+        HashMap<TreeNode, TreeNode> map = new HashMap();
+        q.add(root);
+        TreeNode temp;
+        while(!q.isEmpty())
+        {
+            temp = q.poll();
+            if(temp.val==start) 
+                target = temp;
+            if(temp.left!=null)
+            {
+                q.add(temp.left);
+                map.put(temp.left,temp);
+            }
+            if(temp.right!=null)
+            {
+                q.add(temp.right);
+                map.put(temp.right,temp);
+            }
+        }
+        HashSet<TreeNode>  visited = new HashSet();
+        int k=0;
+        q.clear();
+        q.add(target);
+        visited.add(target);
+        while(!q.isEmpty())
+        {
+            int siz = q.size();
+            k++;
+            for(int i=0;i<siz;i++)
+            {
+                temp = q.poll();
+                if(temp.left!=null)
+                {
+                    if(!visited.contains(temp.left))
+                        q.add(temp.left);
+                    visited.add(temp.left);
+                }
+                if(temp.right!=null)
+                {
+                    if(!visited.contains(temp.right))
+                        q.add(temp.right);
+                    visited.add(temp.right);
+                }   
+                if(map.containsKey(temp))
+                {
+                     if(!visited.contains(map.get(temp)))
+                        q.add(map.get(temp));
+                    visited.add(map.get(temp));
+                }   
+            }
+            
+        }
+        // the first iteration of addition for root  is not considered
+        return k-1;
+
+    }
+}
+```
+
+#### Reference
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/solutions/3831154/easy-to-understand-solution-in-java-using-2-bfs/
+https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/solutions/3831175/easy-to-understand-solution-in-java-using-2-bfs/
+
+
+### 106. construct binary tree from inorder and postorder traversal
+
+```java
+class Solution {
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+         HashMap<Integer,Integer>  map = new HashMap();
+        for(int i=0;i<inorder.length;i++)
+        {
+            map.put(inorder[i],i);
+        }
+        return rec(map,postorder,0,postorder.length-1,inorder,0,inorder.length-1);
+    }
+
+    TreeNode rec(HashMap<Integer,Integer> map, int[] postorder,int postStart, int postEnd, int[] inorder , int inStart, int inEnd)
+    {
+        if(postStart>postEnd || inStart >inEnd) return null;
+        int index = map.get(postorder[postEnd]);
+        int numsLeft = index-inStart;
+        TreeNode root= new TreeNode(postorder[postEnd]);
+        root.left = rec(map,postorder, postStart, postStart+numsLeft-1, inorder, inStart, index-1);
+
+        root.right =  rec(map ,postorder, postStart+numsLeft,postEnd-1,inorder,index+1,inEnd);
+        return root;
+
+    }
+}
+```
+
+### 105. Construct binary tree from preorder and inorder binary tree traversal
+
+```java
+class Solution {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        HashMap<Integer,Integer>  map = new HashMap();
+        for(int i=0;i<inorder.length;i++)
+        {
+            map.put(inorder[i],i);
+        }
+        return rec(map,preorder,0,preorder.length-1,inorder,0,inorder.length-1);
+    }
+
+    TreeNode rec(HashMap<Integer,Integer> map, int[] preorder,int preStart, int preEnd, int[] inorder , int inStart, int inEnd)
+    {
+        if(preStart>preEnd || inStart >inEnd) return null;
+        int index = map.get(preorder[preStart]);
+        int numsLeft = index-inStart;
+        TreeNode root= new TreeNode(preorder[preStart]);
+        root.left = rec(map,preorder, preStart+1, preStart+numsLeft, inorder, inStart, index-1);
+
+        root.right =  rec(map ,preorder, preStart+numsLeft+1,preEnd,inorder,index+1,inEnd);
+        return root;
+
+
+
+    }
+}
+```
+
+
+### 297. Serialize and Desrialize a binary tree
+
+```java
+public class Codec {
+
+    public String serialize(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList();
+        
+        
+        String str = "";
+        if(root==null)
+            return str;
+        TreeNode temp;
+        q.add(root);
+        str = str+root.val;
+        while(!q.isEmpty())
+        {
+             temp = q.poll();
+            if(temp.left!=null)
+            {
+                q.add(temp.left);
+                str = str+" "+temp.left.val;
+            }
+            else
+            {
+                str = str+" "+"#";
+            }
+
+            if(temp.right!=null)
+            {
+                q.add(temp.right);
+                str=str+" "+temp.right.val;
+            }
+            else
+            {
+                str=str+" "+"#";
+            }
+        } 
+        return str;
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String str) 
+    {
+        if(str.length()==0) return null;
+        int i=0;
+        String[] s = str.split(" ");
+        int n = s.length;
+        TreeNode temp;
+        temp = new TreeNode(Integer.valueOf(s[0])); 
+        Queue<TreeNode> q = new LinkedList();
+        TreeNode root=temp;
+        q.add(temp);
+        i++;
+        while( !q.isEmpty() && i<n )
+        {
+            temp = q.poll();
+            if(!(s[i]).equals("#"))
+            {
+                
+                temp.left =  new TreeNode(Integer.valueOf(s[i]));
+                q.add(temp.left);
+            }
+            i++;
+
+            if(i<n && !(s[i]).equals("#"))
+            {
+                temp.right = new TreeNode(Integer.valueOf(s[i]));
+                q.add(temp.right);
+            }
+            i++;
+        } 
+        return root;
+    }
+}
+
+```
+
+
+### 114. Flatten Binary Tree to Linked List
+
+```java
+class Solution {
+    TreeNode prev;
+    public void flatten(TreeNode root) {
+        prev=null;
+        rec(root);
+        return ;
+    }
+    void rec(TreeNode curr)
+    {
+        if(curr==null) return;
+        if(prev!=null)
+        {
+            prev.right= curr;
+            prev.left =null;
+        }
+
+        TreeNode r = curr.right;
+        prev=curr;
+        rec(curr.left);
+        rec(r);
+    }
+
+}
 ```

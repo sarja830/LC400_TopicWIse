@@ -1,5 +1,7 @@
 # Java 'passed by Value' or 'Passed by reference'
 
+
+### refer this article https://www.baeldung.com/java-pass-by-value-or-pass-by-reference#:~:text=When%20a%20parameter%20is%20pass%2Dby%2Dreference%2C%20the%20caller,made%20to%20the%20original%20value.
 First, what does pass by value and pass by reference mean?
 
 1. Pass by value:
