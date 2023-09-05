@@ -1,7 +1,7 @@
-### The top-down approach follows the memorization technique.
-which means going from the top level of the tree to bottom how does it work is lets take an example for fibonacci
-start from f4 and end at base cases is top down approach
+### The top-down 
 
+Recursiveness
+Note that both top-down and bottom-up can be implemented with recursion or iterative table-filling, though it may not be natural.
 ```
                 f4
         f3             f2
@@ -9,7 +9,6 @@ start from f4 and end at base cases is top down approach
  ``` 
 
 ### The bottom up approach follows the bottom up approach
-
 which is starting from the base case to the top level of the tree.
 
 

@@ -1,6 +1,6 @@
 ### BFS
 
-#### Count the number of province
+#### Count the number of province LC:  547. Number of Provinces
 ```java
 class Solution {
     int[]  visited;
@@ -573,13 +573,125 @@ class Solution {
 
 ```
 
+#### Detect cycle in an undirected graph and similar problems using BFS DFS  (1559. Detect Cycles in 2D Grid)
 
-#### detect cycle in a directed graph
+```java
+class Solution {
+    public boolean containsCycle(char[][] grid) {
+
+        int n = grid.length;
+        int m = grid[0].length;
+
+// keep a visited array to prevent the cell from visiting again.
+//Also it will help to detect if we have visited a cell again to form a cycle.
+        int[][] visited = new int[n][m];
+        
+        for( int i =0;i<n;i++)
+            for(int j=0;j<m;j++)
+            {
+//if unvisited then perform BFS or DFS
+                if(visited[i][j]==0)
+                    // if(DFS(i,j,grid,visited,-1 , -1))
+                    //     return true;
+                    if(BFS(i,j,grid,visited))
+                        return true;
+            }
+        return false;
+    }
+
+    boolean DFS(int i, int j, char[][] grid,int[][] visited, int parentx, int parenty)
+    {
+        int n = grid.length;
+        int m = grid[0].length;
+
+// to traverse in all 4 directions
+        int[]  x = new int[]{1,-1,0,0};
+        int[] y = new int[]{0,0,1,-1};
+
+// if it is visited by other path then return true it forms a cycle
+        if(visited[i][j]==1) return true;
+
+// mark visited and continue dfs
+        visited[i][j] =1;
+        for(int k=0;k<4;k++)
+        {
+            int xc = i+x[k];
+            int yc = j+y[k];
+
+// visit only those grid cells which has same character
+            if( xc>=0 && xc<n && yc>=0 && yc<m && grid[i][j]==grid[xc][yc])
+            {   
+// check if it is not the same cell it has came from and if DFS returns true return true;
+                if((xc!=parentx || yc!=parenty) && DFS(xc,yc,grid,visited,i,j))
+                    return true;
+
+                    // OR
+
+                    // if(xc==parentx && yc==parenty)
+                    //     continue;
+                    // else
+                    //     if(DFS(xc,yc,grid,visited,i,j))
+                    //         return true;
+            }
+        }
+            
+        return false;
+    }
+        
 
 
-Here we need to keep track of the path visited
+    boolean BFS(int i, int j, char[][] grid , int[][] visited)
+    {
+        int n = grid.length;
+        int m = grid[0].length;
+        Queue<int[]>  q = new LinkedList();
+        q.add(new int[]{i,j,-1,-1});
+        int[]  x = new int[]{1,-1,0,0};
+        int[] y = new int[]{0,0,1,-1};
+    
+        while(!q.isEmpty())
+        {
+            int siz = q.size();
+            for(int l=0;l<siz;l++)
+            {
+                int[] temp = q.poll();
+                visited[temp[0]][temp[1]] =1;
+                for(int k=0;k<4;k++)
+                {
+                    int xc = temp[0]+x[k];
+                    int yc = temp[1]+y[k];
 
-![img.png](img.png)a->b->c
+
+// visit only those grid cells which has same character
+                    if(xc>=0 && xc<n && yc>=0 && yc<m && grid[temp[0]][temp[1]]==grid[xc][yc])
+
+// check if it is not the same cell it has came from a
+                        if( temp[2]!=xc || temp[3]!=yc )
+                        {
+//if it is already visited then cycle exists return true
+                            if(visited[xc][yc]==1)
+                                return true;
+
+// otherwise add it to the queue
+                            q.add(new int[]{xc,yc,temp[0],temp[1]});       
+                        }
+                }
+            }
+
+        }
+        return false;
+    }
+}
+```
+
+#### detect cycle in a directed graph (https://www.codingninjas.com/studio/problems/detect-cycle-in-a-directed-graph-_920545?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=1)
+
+
+Here we need to keep track of the path visited because there can be case a->c, a->b, c->d, b->d
+although the graph structure looks like a cycle but the edges are directed hence they do not form a cycle.
+Hence, you need to maintain two arrays one visited and another pathVisited. 
+path visited keeps track of all elements of a path and if an element is repeated in the path then it is a cycle
+
    
 ```java
 import java.util.*;
@@ -626,3 +738,56 @@ public class Solution
     }
 }
 ```
+
+
+
+### TOPOLOGICAL SORT
+
+1. linear order of vertices such that if there is an edge between u->v then u apears before v.
+2. it is only applicable to directed acyclic graphs
+#### using DFS
+```java
+
+import java.util.*;
+
+public class Solution {
+
+    public static List<Integer> topologicalSort(int[][] edge, int e, int v) {
+        HashMap<Integer,List<Integer>> adj = new HashMap<>();
+        for(int i=0;i<e;i++)
+        {
+            adj.putIfAbsent(edge[i][0], new LinkedList());
+            adj.get(edge[i][0]).add(edge[i][1]);
+        }
+
+        int[] visited = new int[v];
+        Stack<Integer> st = new Stack();
+        for(int i=0;i<v;i++)
+            if(visited[i]==0)
+                DFS(st,adj,i,visited);
+
+        List<Integer> ans = new LinkedList<Integer>();
+        while(!st.isEmpty())
+        {
+            ans.add(st.pop());
+        }
+        return ans;
+    }
+    static void  DFS(Stack<Integer> st , HashMap<Integer,List<Integer>> adj, int node, int[] visited)
+    {
+        visited[node] =1;
+        if(adj.containsKey(node))
+            for(int i: adj.get(node))
+            {
+                if(visited[i]==0)
+                    DFS(st,adj,i,visited);
+            }
+
+        st.push(node);
+    }
+
+}
+```
+
+#### using BFS kahn's algorithm
+

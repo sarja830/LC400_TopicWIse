@@ -4,8 +4,35 @@ import java.util.*;
 public class CoinChange322 {
     public static void main(String[] args) {
 //        coinChange(new int[]{1,2,5},11);
-        coinChange(new int[]{2},3);
+//        coinChange(new int[]{2},3);
+        coinChangeRec(new int[]{2},3);
     }
+
+
+        public static int coinChangeRec(int[] coins, int amount) {
+            return rec(coins,coins.length,amount);
+        }
+        static int rec(int[] coins, int n, int amount)
+        {
+            if(n==0 || amount<=0)
+            {
+                if(amount==0)
+                    return 0;
+                else
+                    return Integer.MAX_VALUE;
+            }
+            else
+                return Math.min(
+                        rec(coins,n-1,amount),
+                        Math.min(
+                                rec(coins,n-1,amount-coins[n-1]),
+                                rec(coins,n,amount-coins[n-1])
+                        )+1
+                );
+        }
+
+
+
         public static int coinChange(int[] coins, int amount) {
             int n = coins.length;
 

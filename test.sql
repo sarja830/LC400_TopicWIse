@@ -1,0 +1,2 @@
+select mac, upstream_rate, downstream_rate,downtime_rate from clients where downstream_rate>upstream_rate and downtime_rate in
+                                                                      ('never',once) sort by asc(mac);

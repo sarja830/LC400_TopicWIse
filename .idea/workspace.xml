@@ -5,28 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d509fb21-3915-4448-90a3-53d57025b8d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Experiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/PaintersPartitionProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_1d/DynamicProgramming1d.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_1d/HouseRobber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP_LCS_BASE/DPOnStrings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignQuestions/TradeScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/FloodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Graphs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/IsGraphBipartite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/NumberOfProvince.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/WordLadder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/BalancedNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/WorstTradeReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/JavaArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestSubarrayHackerrank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Arrays.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/CheckIfArrayIsRotatedAndSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/Backtracking.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/Nqueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SecureServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP_2d/DP_2d.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignCache/LFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/DetectCycleIn2dGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Greedy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/HeapTC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/OS/os.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/ListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MostDifficultCombineProblems/CombionationProblems.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/countGoodNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MaximalRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Stack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Strings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TileColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BInaryTree/BInaryTree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/BInaryTree/BInaryTree.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/PassByValue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/PassByValue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP_1d/DynamicProgramming1d.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP_1d/DynamicProgramming1d.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/Graphs.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Graphs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/IsGraphBipartite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/IsGraphBipartite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/SlidingWIndowMaximum239.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/SlidingWIndowMaximum239.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +59,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0c892fdf-9e92-4e24-b707-2c996124e895" />
+        <option name="url" value="git@github.com:sarja830/LC400_TopicWIse.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,6 +113,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/" />
     </key>
   </component>
@@ -92,7 +122,7 @@
       <command value="MergeSort" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager">
     <configuration name="CollectionInterface" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="JavaBasics.CollectionInterface" />
@@ -305,7 +335,12 @@
       <workItem from="1692097629689" duration="1417000" />
       <workItem from="1692099154860" duration="8547000" />
       <workItem from="1692203317931" duration="15777000" />
-      <workItem from="1692357378267" duration="1781000" />
+      <workItem from="1692357378267" duration="33362000" />
+      <workItem from="1693169458148" duration="27165000" />
+      <workItem from="1693748449946" duration="3743000" />
+      <workItem from="1693763382716" duration="3539000" />
+      <workItem from="1693789792096" duration="6645000" />
+      <workItem from="1693916508733" duration="4275000" />
     </task>
     <servers />
   </component>
@@ -634,17 +669,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
-          <line>9</line>
+          <line>36</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
-          <line>31</line>
+          <line>58</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
-          <line>27</line>
+          <line>54</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -914,17 +949,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SlidingWindow/SlidingWIndowMaximum239.java</url>
-          <line>10</line>
+          <line>37</line>
           <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SlidingWindow/SlidingWIndowMaximum239.java</url>
-          <line>11</line>
+          <line>38</line>
           <option name="timeStamp" value="211" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SlidingWindow/SlidingWIndowMaximum239.java</url>
-          <line>22</line>
+          <line>47</line>
           <option name="timeStamp" value="212" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1948,23 +1983,508 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Graphs/IsGraphBipartite.java</url>
-          <line>55</line>
+          <line>56</line>
           <option name="timeStamp" value="528" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Graphs/IsGraphBipartite.java</url>
-          <line>53</line>
+          <line>54</line>
           <option name="timeStamp" value="530" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Graphs/IsGraphBipartite.java</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="535" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Graphs/IsGraphBipartite.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="537" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/DetectCycleIn2dGrid.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="557" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/DetectCycleIn2dGrid.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/DetectCycleIn2dGrid.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/TopologicalSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="570" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/TopologicalSort.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="571" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/SecureServer.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="572" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/SecureServer.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="575" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/SecureServer.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="578" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="579" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="580" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="582" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="583" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="584" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/MaximalRectangle.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="585" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/MaximalRectangle.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="586" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/MaximalRectangle.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="587" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="589" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="590" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="591" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/SlidingWIndowMaximum239.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SlidingWindow/SlidingWIndowMaximum239.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="602" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MostDifficultCombineProblems/MaximumNumberOfRobotsWithinBudget2398.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="615" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="624" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="625" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignCache/LFU.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/countGoodNumbers.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="629" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/countGoodNumbers.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="630" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="632" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="634" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="635" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="636" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="637" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/LongestAbsoluteFIlePath.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="638" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/CheckIfArrayIsRotatedAndSorted.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="639" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/CheckIfArrayIsRotatedAndSorted.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="640" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/CheckIfArrayIsRotatedAndSorted.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="641" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/CheckIfArrayIsRotatedAndSorted.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/CheckIfArrayIsRotatedAndSorted.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="643" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/CheckIfArrayIsRotatedAndSorted.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="646" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="647" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="649" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="650" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="651" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="654" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="656" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="657" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="658" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="659" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="660" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/AwardBudgetCuts.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="661" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Swap.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="662" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Swap.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="663" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Swap.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TileColor.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="665" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TileColor.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="666" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TileColor.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="667" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TileColor.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="668" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="669" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="671" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="672" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="673" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="674" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="675" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="676" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="677" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Longest_Common_Substring_Center_Expansion/LongestPallindormicSubstring5.java</url>
@@ -2055,6 +2575,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Backtracking/Nqueens.java</url>
+          <line>11</line>
+          <properties class="Backtracking.Nqueens" method="solveNQueens">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="588" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/CoinChange322.java</url>
+          <line>11</line>
+          <properties class="DP_Knapsack_Pattern.CoinChange322" method="coinChangeRec">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="645" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DP_Knapsack_Pattern/MinimumCostsForTicket.java</url>
+          <line>15</line>
+          <properties class="DP_Knapsack_Pattern.MinimumCostsForTicket" method="rec">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="678" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />

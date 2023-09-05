@@ -197,6 +197,77 @@ class Solution {
 ```
 ## BFS traversal Questions
 
+### 987. Vertical Order Traversal of a Binary Tree
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    class Pair
+    {
+        int horizontal_distance;
+        TreeNode node;
+        public Pair(TreeNode node, int dist)
+        {
+            this.node=node;
+            horizontal_distance = dist; 
+        }
+    }
+    public List<List<Integer>> verticalTraversal(TreeNode root) {
+        List<List<Integer>>  ans = new ArrayList();
+        TreeMap< Integer, List<Integer>> map = new TreeMap();
+        Queue<Pair> q = new LinkedList();
+        
+        q.add(new Pair(root,0));
+        while(!q.isEmpty())
+        {
+            int siz = q.size();
+            PriorityQueue<Pair> mid =new PriorityQueue<>((Pair a, Pair b)->{
+                return   a.node.val-b.node.val;
+                });;
+            for(int k = 0;k<siz;k++)
+            {
+               mid.add(q.poll());
+            }
+            for(int k = 0;k<siz;k++)
+            {
+                Pair p = mid.poll();
+                TreeNode temp = p.node;
+                int hd = p.horizontal_distance;
+                
+                List<Integer> list = map.getOrDefault(hd,new ArrayList());
+                list.add(temp.val);
+                map.put(hd,list);
+                if(temp.left!=null)
+                    q.add(new Pair(temp.left,hd-1));
+                
+                if(temp.right!=null)
+                    q.add(new Pair(temp.right,hd+1));
+            }
+        }
+        for(int k:map.keySet())
+        {
+            ans.add(map.get(k));
+        }
+        return ans;
+    }
+}
+```
+
+
 ### Zigzag traversal
 
 ```java
