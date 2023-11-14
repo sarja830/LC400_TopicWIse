@@ -74,7 +74,7 @@ public class JavaBasics {
 
 //set from list
 
-sourceList.addAll(Arrays.asList(1,2,3,4));
+        sourceList.addAll(Arrays.asList(1,2,3,4));
         sourceList.add(1);
         sourceList.add(2);
         sourceList.add(2);
@@ -101,6 +101,16 @@ sourceList.addAll(Arrays.asList(1,2,3,4));
         Arrays.sort(aaa,(ar,br)->Integer.compare(ar[0],br[0]));
 //        will not work in all the cases wont work in the above corner case
         Arrays.sort(aaa,(ar,br)->ar[0]-br[0]);
+        Arrays.sort(aaa,(a11,b11)->
+                {
+                    //if a is greater than b place it to the right 1 denotes positive means to the right
+                    if(a11[0]>b11[0])
+                        return 1;
+                    else
+                        return -1;
+                }
+        );
+
 
         System.out.println(" sorted array " +ab.toString());
 //        checking equality of 2 arrays
@@ -148,7 +158,7 @@ sourceList.addAll(Arrays.asList(1,2,3,4));
 
 
         // gives small first
-         PriorityQueue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
 //         if we want to create pq of explicit ojects in java
 //         PriorityQueue<MergeKSortedList23.ListNode> pq1 = new PriorityQueue<>((a, b)->a.val-b.val);
 

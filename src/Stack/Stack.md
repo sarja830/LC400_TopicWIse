@@ -233,8 +233,31 @@ class Solution {
     }
 }
 ```
+## Combinatorics
+
+#### 2063. Vowels of All Substrings
+
+```java
+class Solution {
+
+    public long countVowels(String word) {
+        long n = word.length();
+        long count=0;
+    
+        for(int i=0;i<n;i++)
+        {
+        
+            if("aeiou".indexOf(word.charAt(i))>=0)
+                count += (i+1)*(n-i);
+        }
+        return count;
+    }
+}
+```
 
 #### 907. Sum of Subarray Minimums
+number of arrays were the element at a current index is minimum = x+1 * y+1
+where x and y is the number of element to left and right respectively without including the min element.
 ```java
 class Solution {
     public int sumSubarrayMins(int[] arr) {
@@ -295,6 +318,14 @@ class Solution {
     }
 }
 ```
+
+
+#### 2104. Sum of Subarray Ranges
+```java
+
+```
+
+
 #### 735. Asteroid Collision
 
 ```java
@@ -519,6 +550,55 @@ class Solution {
             }
         }
         return ans;
+    }
+}
+```
+
+
+## 2 pass 
+
+#### 678. Valid Parenthesis String
+```java
+class Solution {
+    public boolean checkValidString(String s) {
+        int countopen = 0;
+        int countclose = 0;
+        int count = 0;
+        for(char c: s.toCharArray())
+            if(c=='(')
+                countopen++;
+            else if(c==')')
+               if(countopen==0)
+                    if(count==0)
+                        return  false;
+                    else
+                        count--;
+                else
+                    countopen--;
+            else
+                count++;
+        
+        if(countopen>count) return false;
+
+count=0;
+        for(char c: new StringBuilder(s).reverse().toString().toCharArray())
+           if(c==')')
+                countclose++;
+            else if(c=='(')
+               if(countclose==0)
+                    if(count==0)
+                        return false;
+                    else
+                        count--;
+                else
+                    countclose--;
+            else
+                count++;
+        
+        if(countclose>count)
+            return false;
+
+        return true;
     }
 }
 ```

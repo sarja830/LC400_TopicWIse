@@ -90,7 +90,7 @@ public class GridKattis {
     }
 
 
-//Time Complexity
+//Time Complexity.md
 //Since it is a bfs implementation visiting each node which can be at max O(m*n)
 //BFS in a graph takes O(V+E) here since the vertices can be m*n.
 //hence the time complexity is O(n^2);

@@ -1,0 +1,21 @@
+<code><span class="hljs-keyword">from</span> collections <span class="hljs-keyword">import</span> defaultdict
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">channelRating</span>(<span class="hljs-params">arr</span>):</span>
+    currxor = <span class="hljs-number">0</span>
+    prev = defaultdict(<span class="hljs-keyword">lambda</span>:<span class="hljs-number">0</span>)
+    res = <span class="hljs-number">0</span>
+    add_queue = [<span class="hljs-number">0</span>] <span class="hljs-comment"># makes sure subarray is of length 3</span>
+    <span class="hljs-comment"># if a^e = b^c^d then a^b^c^d^e = 0 </span>
+    <span class="hljs-comment"># b^c^d = a^(a^b^c^d), so we can track a^b^c^d and xor the prefix a to get b^c^d</span>
+    <span class="hljs-keyword">for</span> ind <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-built_in">len</span>(arr)):
+    i = arr[ind]
+    currxor = currxor ^ i
+
+    <span class="hljs-keyword">if</span>(currxor <span class="hljs-keyword">in</span> prev):
+    res+=prev[currxor]
+
+    <span class="hljs-keyword">if</span>(ind &gt; <span class="hljs-number">0</span>): <span class="hljs-comment"># start adding only prefix xor of index-2. 0 gets added the first time.</span>
+    prev[add_queue[<span class="hljs-number">0</span>]]+=<span class="hljs-number">1</span>
+    add_queue.pop(<span class="hljs-number">0</span>)
+    add_queue.append(currxor)
+
+    <span class="hljs-keyword">return</span> res</code>
