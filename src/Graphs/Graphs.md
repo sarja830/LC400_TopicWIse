@@ -95,6 +95,47 @@ class Solution {
 }
 ```
 
+#### 1905. Count Sub Islands
+```java
+class Solution {
+    public int countSubIslands(int[][] grid1, int[][] grid2) {
+        int count=0;
+        int m = grid2.length;
+        int n = grid1[0].length;
+        for(int i=0;i<m;i++)
+            for(int j=0;j<n;j++)
+                if(grid2[i][j]==1)
+                    if(DFS(i,j,grid2,grid1)) count++;
+                
+        return count;
+    }
+    
+    boolean DFS(int i, int j, int[][] grid, int[][] check)
+    {
+        int m = grid.length;
+        int n = grid[0].length;
+        int x[] = new int[]{1,-1,0,0};
+        int y[] = new int[]{0,0,1,-1};
+        
+        boolean ans[] = new boolean[]{true,true,true,true};
+        boolean finalAns = true;
+        grid[i][j] = 2;
+        if(check[i][j]==0)  
+            finalAns = false;
+        for(int k=0;k<4;k++)
+        {
+            int xCor = i+x[k];
+            int yCor = j+y[k];
+            if(xCor>=0 && xCor<m && yCor>=0 && yCor<n && grid[xCor][yCor]==1)
+                ans[k] = DFS(xCor,yCor,grid,check); 
+        }
+        for(boolean a: ans) finalAns = finalAns && a;
+        return finalAns;
+    }
+
+}
+```
+
 #### 994. Rotting Oranges (report time to rott the oranges)
 
 ```java
@@ -684,6 +725,9 @@ class Solution {
 }
 ```
 
+
+
+
 #### detect cycle in a directed graph (https://www.codingninjas.com/studio/problems/detect-cycle-in-a-directed-graph-_920545?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=1)
 
 
@@ -791,3 +835,42 @@ public class Solution {
 
 #### using BFS kahn's algorithm
 
+
+
+#### 207. Course Schedule
+```java
+class Solution {
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        List<Integer>[] adjList= new List[numCourses];
+        int[] indegree = new int[numCourses];
+      for(int i=0;i<numCourses;i++) adjList[i] = new LinkedList();
+
+        for( int[] prereq: prerequisites )
+        {
+            adjList[prereq[1]].add(prereq[0]);
+            indegree[prereq[0]]++;
+        }
+        Queue<Integer> q = new LinkedList();
+        // start from the courses which does not have any dependency
+        int count = 0;
+        for(int i=0;i<numCourses;i++)
+            if(indegree[i]==0)
+                q.add(i);
+
+        while(!q.isEmpty())
+        {
+            int temp = q.poll();
+            count++;
+            for(int neighbor: adjList[temp])
+            {    
+                indegree[neighbor]--;
+                if(indegree[neighbor]==0)
+                    q.add(neighbor);
+            }
+        }   
+        System.out.println(count);
+        return count==numCourses;
+
+    }
+}
+```

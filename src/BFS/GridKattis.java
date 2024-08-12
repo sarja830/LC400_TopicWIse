@@ -3,7 +3,9 @@ package BFS;
 
 import java.io.*;
 import java.util.*;
+
 public class GridKattis {
+
     static class Pair
     {
         int x;

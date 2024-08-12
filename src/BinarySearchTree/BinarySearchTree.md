@@ -199,3 +199,50 @@ class Solution {
     }
 }
 ```
+
+#### 109. Convert Sorted List to Binary Search Tree
+```java
+
+class Solution {
+    public TreeNode sortedListToBST(ListNode head) {
+        return rec(head);
+    }
+    TreeNode rec(ListNode root)
+    {
+        if(root==null) 
+        {
+            return null;
+        }
+        else if(root.next==null) 
+            return new TreeNode(root.val);
+        ListNode middle = MiddleOfALinkedlist(root);
+        TreeNode treenode = new TreeNode(middle.val);
+        TreeNode left =  rec(root);
+        TreeNode right = rec(middle.next);
+        treenode.left = left;
+        treenode.right = right;
+
+        return treenode;
+    
+    }
+    ListNode MiddleOfALinkedlist(ListNode root)
+    {
+        int count = 0;
+        ListNode slow = root;
+        ListNode fast = root;
+        ListNode curr = new ListNode(-1);
+        while(fast!=null && fast.next!=null)
+        {
+            fast=fast.next.next;
+            if(fast==null || fast.next==null)
+                 curr = slow;
+            slow = slow.next;
+        }
+        curr.next = null;
+        return slow;
+    }
+
+
+}
+
+```

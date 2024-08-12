@@ -1,9 +1,14 @@
 package Multithreading;
 
+import Multithreading.MemoryModel.MyRunnable;
+
 import javax.swing.plaf.TableHeaderUI;
 
 public class ThreadImpl3 {
     public static void main(String[] args) {
+
+
+
         // to implement the runnable interface as an anonymous class
         Runnable runnable = new Runnable() {
             @Override

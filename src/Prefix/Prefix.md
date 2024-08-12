@@ -87,3 +87,29 @@ class Solution {
     }
 }
 ```
+
+#### 525. Contiguous Array
+```java
+class Solution {
+    public int findMaxLength(int[] nums) {
+        int n = nums.length;
+        int curr = 0;
+        int max = 0;
+        HashMap<Integer, Integer> map = new HashMap();
+        map.put(0,-1);
+        for(int i=0;i<n;i++)
+        {
+            if(nums[i]==0)
+                nums[i] = -1;
+
+            curr = nums[i] + curr;
+            if(map.containsKey(curr))
+                max = Math.max(i-map.get(curr),max);
+        
+            map.put(curr,map.getOrDefault(curr,i));  
+        }
+        return max;
+        
+    }
+}
+```

@@ -555,50 +555,69 @@ class Solution {
 ```
 
 
-## 2 pass 
+ 
 
 #### 678. Valid Parenthesis String
 ```java
 class Solution {
     public boolean checkValidString(String s) {
-        int countopen = 0;
-        int countclose = 0;
-        int count = 0;
-        for(char c: s.toCharArray())
+        Stack<Integer> open = new Stack();
+        Stack<Integer> star = new Stack();
+        int n = s.length();
+        for(int i=0;i<n;i++)
+        {
+            char c = s.charAt(i);
             if(c=='(')
-                countopen++;
+                open.push(i);
             else if(c==')')
-               if(countopen==0)
-                    if(count==0)
-                        return  false;
-                    else
-                        count--;
-                else
-                    countopen--;
+            {
+                if(open.size()>0)
+                    open.pop();
+                else if(star.size()>0)
+                    star.pop();
+                else return false;
+            }
             else
-                count++;
-        
-        if(countopen>count) return false;
-
-count=0;
-        for(char c: new StringBuilder(s).reverse().toString().toCharArray())
-           if(c==')')
-                countclose++;
-            else if(c=='(')
-               if(countclose==0)
-                    if(count==0)
-                        return false;
-                    else
-                        count--;
-                else
-                    countclose--;
-            else
-                count++;
-        
-        if(countclose>count)
-            return false;
-
+                star.push(i);
+        }
+        while(!open.isEmpty())
+        {
+            if(star.size()>0 && open.peek()<star.peek())
+            {
+                open.pop();
+                star.pop();
+            }
+            else return false;
+        }
+     
         return true;
     }
 }
 ```
+
+#### 581. Shortest Unsorted Continuous Subarray
+```
+class Solution {
+    public int findUnsortedSubarray(int[] arr) {
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        int n = arr.length;
+        int right = n;
+        int left = -1;
+      
+        for(int i=0;i<n;i++)
+        {
+            if(arr[i]>max)
+                max = arr[i];
+            if(arr[i]<max)    right = i;
+        }
+        for(int i=n-1;i>=0;i--)
+        {
+            if(arr[i]<min)
+                min = arr[i];
+            if(arr[i]>min)    left = i;
+        }
+
+        return right-left+1>n?0: right-left+1;
+    }
+}```

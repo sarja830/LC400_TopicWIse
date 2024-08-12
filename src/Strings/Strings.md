@@ -1,3 +1,7 @@
+
+
+https://stackoverflow.com/questions/15805578/will-two-strings-with-same-content-be-stored-in-the-same-memory-location
+
 ## Basic String Problems
 
 #### 8. String to Integer (atoi)
@@ -142,4 +146,121 @@ class Solution {
     }
 }
 
+```
+
+#### https://leetcode.com/problems/encode-and-decode-strings/
+```java
+public class Codec {
+
+    // Encodes a list of strings to a single string.
+    public String encode(List<String> strs) {
+        StringBuilder encoded =  new StringBuilder("");
+        for(String s: strs)
+            encoded.append(s.length()).append("#").append(s);
+        System.out.println(encoded.toString());
+        return encoded.toString();
+    }
+
+    // Decodes a single string to a list of strings.
+    public List<String> decode(String s1) {
+        int i=0;
+        List<String> ans = new LinkedList();
+        while(i<s1.length())    
+        {
+            int n = 0;
+            while(s1.charAt(i)!='#')
+            {
+                char c = s1.charAt(i++);
+                n = n*10+c-'0';
+            }
+            
+            ans.add(s1.substring(i+1,i+1+n));
+            i = i+1+n;
+            
+        }
+         
+        return ans;
+    }
+}
+```
+
+#### String compression
+```java
+class Solution {
+    public int compress(char[] chars) {
+        if(chars.length==1)
+            return 1;
+        Stack<Character> digits ;
+        int i = 0, n = chars.length, count = 1;
+        char curr = chars[0];
+        for(int j=1;j<n;j++)
+        {
+            char c = chars[j];
+            if(c!=curr)
+            {
+                chars[i++] = curr;
+                if(count>1)
+                {
+                    for(char c1: String.valueOf(count).toCharArray())
+                        chars[i++] = c1;
+                }
+                curr = c;
+                count = 1;
+            }
+            else
+                count++;
+        }
+        chars[i++] = curr;
+        if(count>1)
+                {
+                    for(char c1: String.valueOf(count).toCharArray())
+                        chars[i++] = c1;
+                }
+        return i;
+    }
+}
+```
+
+#### 722. Remove Comments
+```java
+class Solution {
+    public List<String> removeComments(String[] source) {
+        List<String> ans = new LinkedList();
+        boolean comment = false;
+        String ansString = "";
+        for(String s: source)
+        {
+            if(comment==false)
+                ansString = "";
+           
+            int n = s.length();
+            for(int i=0;i<n;i++)
+            {
+                if(comment==false)
+                {
+                        if(i+1<n && s.charAt(i)=='/' && s.charAt(i+1)=='*')
+                    {
+                        comment = true;
+                        i++;
+                    }
+                    else if(i+1<n && s.charAt(i)=='/' && s.charAt(i+1)=='/')
+                            break;
+                    else 
+                        ansString = ansString + s.charAt(i);
+                }
+                else
+                if( i+1<n && s.charAt(i)=='*' && s.charAt(i+1)=='/')
+                {
+                    comment = false;
+                    i++;
+                }
+                
+            }
+            if(ansString.length()!=0) 
+                if(comment==false)
+                    ans.add(ansString);
+        }
+        return ans;
+    }
+}
 ```

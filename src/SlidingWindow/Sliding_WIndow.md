@@ -271,6 +271,60 @@ class Solution {
 }
 ```
 
+
+#### 1234. Replace the Substring for Balanced String
+
+````java
+class Solution {
+    public int balancedString(String s) {
+        int n = s.length();
+        int l = n/4;
+       HashMap<Character, Integer> map = new HashMap();
+        for(char c: s.toCharArray())
+            map.put(c,map.getOrDefault(c,0)+1);
+        
+        int count = 0;
+        for(char i='A';i<='Z';i++)
+        {
+            int occ = map.getOrDefault(i,0);
+            if(occ>l)
+            {
+                map.put(i,occ-l);
+                count = count+occ - l;
+            }
+            else
+                map.remove(i);
+        }
+        if(count==0 ) return 0;
+        int curr = 0;
+        int i = 0;
+        int min  = Integer.MAX_VALUE;
+        for(int j=0;j<n;j++)
+        {
+            char c = s.charAt(j);
+            if(map.containsKey(c))
+            {
+                if(map.get(c)>0)
+                    curr++;
+                map.put(c,map.get(c)-1);
+            }
+            while(curr == count)
+            {
+                min = Math.min(j-i+1,min);
+                char c1 = s.charAt(i++);
+                if(map.containsKey(c1))
+                {
+                    if(map.get(c1)>=0)
+                        curr--;
+                    map.put(c1,map.get(c1)+1);
+                }
+            }
+        }
+        return min;
+
+    }
+}
+````
 #### 1358. Number of Substrings Containing All Three Characters
 ```java
 class Solution {
@@ -309,7 +363,10 @@ class Solution {
     }
 }
 ```
+#### 2062. Count Vowel Substrings of a String
+```java
 
+```
 
 ### Solved using prefix sum and hashMap
 
@@ -428,4 +485,164 @@ class Solution {
 
         }
 }
+```
+
+#### 2781. Length of the Longest Valid Substring
+
+```java
+class Solution {
+    public int longestValidSubstring(String word, List<String> forbidden) {
+        // set to store forbidden words
+        HashSet<String> set = new HashSet(forbidden);
+        int maxLength = 0;
+        for(String s:forbidden) maxLength = Math.max(s.length(),maxLength);
+        int n = word.length();
+        int l = n-1, r = n-1;
+        int max = 0;
+        for( l=n-1;l>=0;l--)
+        {
+            for(int i=l;i<=Math.min(l+maxLength,r);i++)
+            {
+                if(set.contains(word.substring(l,i+1)))
+                {
+                    r= i-1;
+                    break;
+                }
+            }
+            
+            max = Math.max(r-l+1,max);
+
+        }
+        return max;
+
+    }
+}
+```
+
+#### 1838. Frequency of the Most Frequent Element
+```java
+class Solution {
+
+        public int maxFrequency(int[] A, int k) {
+        int res = 1, i = 0, j;
+        long sum = 0;
+        Arrays.sort(A);
+        for (j = 0; j < A.length; ++j) {
+            sum += A[j];
+            while (sum + k < (long)A[j] * (j - i + 1)) {
+                sum -= A[i];
+                i += 1;
+            }
+            res = Math.max(res, j - i + 1);
+        }
+        return res;
+    }
+}
+
+
+
+```
+
+
+Using Prev Method:
+
+#### 1248. Count Number of Nice Subarrays
+```java
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+        int count = 0, n = nums.length, prev = 0, ans = 0,i=0;
+        for(int j=0;j<n;j++)
+        {
+            if(nums[j]%2!=0)
+            {
+                count++;
+                prev = 0;
+            }
+            while(count==k)
+            {
+                prev = prev+1;
+                if(nums[i]%2!=0)
+                    count--;
+                i++;
+            }
+            ans = ans+prev;
+         
+        }
+        return ans;
+    }
+}
+```
+
+#### 1358. Number of Substrings Containing All Three Characters
+```java
+class Solution {
+    public int numberOfSubstrings(String s) {
+        Map<Character,Integer> map = new HashMap();
+        int n = s.length();
+        int prev = 0, ans=0,i=0;
+        for(int j=0;j<n;j++)
+        {
+            char c = s.charAt(j);
+            map.put(c,map.getOrDefault(c,0)+1);
+            while(map.size()==3)
+            {
+                prev = prev+1;
+                char c1 = s.charAt(i);
+                map.put(c1,map.getOrDefault(c1,0)-1);
+                if(map.get(c1)==0)
+                    map.remove(c1);
+                i++;
+            }
+            ans = ans+prev;
+        }
+        return ans;
+    }
+}
+```
+#### 2962. Count Subarrays Where Max Element Appears at Least K Times
+
+```java
+class Solution {
+    public long countSubarrays(int[] nums, int k) {
+        int n = nums.length;
+        int i=0;
+        long ans = 0, prev = 0, count=0;
+        int max = Arrays.stream(nums).max().orElse(0);
+        for(int j=0;j<n;j++)
+        {
+            if(nums[j]==max) count++;
+            while(count==k)
+            {
+                prev = prev + 1;
+                if(nums[i++]==max) count--;
+            }
+            ans = ans +prev;
+        }
+        return ans;
+    }
+}
+
+class Solution {
+    public long countSubarrays(int[] nums, int k) {
+        int n = nums.length;
+        int i=0;
+        long count=0, ans=0;
+        int max = Arrays.stream(nums).max().orElse(0);
+        for(int j=0;j<n;j++)
+        {
+            if(nums[j]==max) 
+                count++;    
+             while(count==k)
+            {
+                if(nums[i]==max) count--;
+                i++;
+            }
+            if(count==k-1) 
+                ans = ans+i;
+        }
+        return ans;
+    }
+}
+
+
 ```

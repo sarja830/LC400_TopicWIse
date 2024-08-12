@@ -168,7 +168,32 @@ Heaps:
 
 926 Flip String to Monotone Increasing:https://leetcode.com/problems/flip-string-to-monotone-increasing/solutions/3065345/easy-to-understand-solution-in-java-using-dynamic-programming-with-complete-intuition-through-choice/?orderBy=hot
 
-53 maximum subarray: https://leetcode.com/problems/maximum-subarray/solutions/3065505/easy-to-understand-solution-in-java-using-dynamic-programming-also-known-as-kadanes-algorithm/?orderBy=newest_to_oldest 
+53 maximum subarray: https://leetcode.com/problems/maximum-subarray/solutions/3065505/easy-to-understand-solution-in-java-using-dynamic-programming-also-known-as-kadanes-algorithm/?orderBy=newest_to_oldest
+2036. Maximum Alternating Subarray Sum
+
+```Java
+    class Solution {
+    public long maximumAlternatingSubarraySum(int[] nums) {
+    long prevPos = Integer.MIN_VALUE;
+    long max  = Integer.MIN_VALUE ;
+    long prevNeg = Integer.MIN_VALUE;
+    int n = nums.length;
+    for(int i=0;i<n;i++)
+    {
+    long pos = Math.max(prevNeg!=Integer.MIN_VALUE?prevNeg+nums[i]:nums[i],nums[i]);
+    long neg = prevPos!=Integer.MIN_VALUE?prevPos-nums[i]:Integer.MIN_VALUE;
+    prevPos = pos;
+    prevNeg = neg;
+    
+                max = Math.max(prevPos,max);
+                max = Math.max(prevNeg,max);
+            }
+            return max;
+        }
+    }
+
+```
+
 
 
 18th Jan

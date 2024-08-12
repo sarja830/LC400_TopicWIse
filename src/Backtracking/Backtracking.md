@@ -1,76 +1,105 @@
+#### 980. Unique Paths III
+````java
+class Solution {
+    int m;
+    int n;
+    int ans;
+    public int uniquePathsIII(int[][] grid) {
+         m =  grid.length;
+         ans = 0;
+         n = grid[0].length;
+        int start[] = new int[2];
+        int count = 0;
+        for(int i=0;i<m;i++)
+            for(int j=0;j<n;j++)
+            {
+                if(grid[i][j]==1)
+                    start = new int[]{i,j};
+                else if(grid[i][j]==0)
+                    count++;
+            }
+             rec(start[0],start[1],grid,count);
+        return ans;
+        
+
+    }
+    void rec(int i, int j, int[][] grid, int count)
+    {
+        int sum = 0;
+       
+       
+        int[] x = new int[]{1,-1,0,0};
+        int[] y = new int[]{0,0,1,-1};
+        
+        for(int k=0;k<4;k++)
+        { 
+            int xCor = i+x[k];
+            int yCor = j+y[k];
+            if(xCor >= 0 && xCor<m && yCor>=0 && yCor<n &&  grid[xCor][yCor] != -1 &&grid[xCor][yCor] != 3 && grid[xCor][yCor] != 1)
+            {
+                if(grid[xCor][yCor]==2 )
+                {    
+                    if(count==0) ans++;
+                }
+                else
+                {grid[xCor][yCor] = 3;
+                rec(xCor,yCor, grid,count-1);
+                grid[xCor][yCor] = 0;}
+            }
+        }
+        
+    }
+}
+````
+
+```text
+There are 2 types of bactracking code:
+
+     
+    
+    
+```
+#### 93. Restore IP Addresses
 ```java
 class Solution {
-    HashMap<Integer,Character> diagonalUp = new HashMap();
-    HashMap<Integer,Character> diagonalDown = new HashMap();
-    HashMap<Integer,Character> left = new HashMap();
-    public List<List<String>> solveNQueens(int n) {
-        char[][] board = new char[n][n];
-        for(char[] arr : board)
-        {
-            Arrays.fill(arr,'.');
-        }
-        List<List<String>> ans = new LinkedList();
-        rec(ans,n,board,0);
+
+    public List<String> restoreIpAddresses(String s) {
+        List<String> ans = new ArrayList();
+         rec(0,new LinkedList(),s,4,ans);
         return ans;
     }
-    void rec( List<List<String>> ans ,int n, char[][] board , int col)
+    void rec(int start, List<String> list, String s,int dots,List<String> ans)
     {
-        if(col==board[0].length)
+        int n = s.length();
+        
+        if(start==n && dots==0)
         {
-            List<String> list = new LinkedList();
-            for(char ar[]:board)
-            {
-                list.add(new String(ar));
-            }
-            ans.add(list);
+            String res = "";
+            for(String s1: list)
+                res = res+ s1+".";
+            
+            ans.add(res.substring(0,res.length()-1));
             return;
         }
-        for(int i=0;i<board.length;i++)
+        for(int i=start;i<Math.min(n,start+3);i++)
         {
-            board[i][col] = 'Q';
-           
-            
-            if(isSafe(i,col,board))
+            String substring = s.substring(start,i+1);
+            if(isValid(substring))
             {
-                diagonalDown.put(i+col,'Q');
-                diagonalUp.put(n-1-i+col,'Q');
-                left.put(i,'Q');
-                rec(ans,n,board,col+1);
-                diagonalDown.remove(i+col);
-                diagonalUp.remove(n-1-i+col);
-                left.remove(i);
+                list.add(substring);
+                rec(i+1,list,s,dots-1,ans);
+                list.remove(list.size()-1);
             }
-
-            board[i][col] = '.';
         }
-        return;
     }
-    boolean isSafe(int row,int col, char[][] board)
+    boolean isValid(String s)
     {
-
-    if(diagonalDown.containsKey(row+col))
-        return false;
-    if(diagonalUp.containsKey(board.length-1-row+col))
-        return false;
-    if(left.containsKey(row))
-        return false;
-        // for(int i=row-1,j=col-1;i>=0&&j>=0 ;i--,j--)
-        // {
-        //     if(board[i][j]=='Q')
-        //         return false;
-        // }
-        // for(int j=col-1;j>=0;j--)
-        // {
-        //     if(board[row][j]=='Q')
-        //         return false;
-        // }
-        //  for(int i=row+1,j=col-1;i<board.length && j>=0 && j<board[0].length;i++,j--)
-        // {
-        //     if(board[i][j]=='Q')
-        //         return false;
-        // }
+        int n = s.length();
+        int no = Integer.parseInt(s,10);
+        if(n==2 && no<=9) return false; 
+        if(n==3 && (no<100 || no>255)) return false;
+        
         return true;
     }
-
 }
 ```

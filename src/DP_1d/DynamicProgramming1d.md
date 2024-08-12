@@ -199,3 +199,67 @@ class Solution {
     }
 }
 ```
+
+
+#### 740. Delete and Earn
+```java
+class Solution {
+    public int deleteAndEarn(int[] nums) {
+        Arrays.sort(nums);
+        
+        int j = -1;
+        int curr = Integer.MAX_VALUE;
+        int[] val = new int[nums.length];
+        for(int i: nums)
+        {
+            if(curr == i)
+                nums[j] = nums[j]+ i;
+            else
+            {
+                j++;
+                curr = i;
+                nums[j] = i;
+                val[j] = i;
+            } 
+        }
+        int n = j+1;
+        int[] ans = new int[n];
+
+        for(int i=0;i<n;i++)
+        {
+            if(i>=1 && val[i]-1!=val[i-1])
+                ans[i] = nums[i] + ans[i-1];
+            else
+                ans[i] = Math.max((i>=1?ans[i-1]:0),nums[i]+(i-2>=0?ans[i-2]:0));
+            
+        }
+        return ans[n-1];
+    }
+}
+```
+
+#### 91. Decode Ways
+````java
+class Solution {
+    public int numDecodings(String s) {
+        int n = s.length();
+        int[] ans = new int[n+1];
+        ans[0] = 1;
+        for(int i=0;i<s.length();i++)
+        {
+            int curr = s.charAt(i)-'0';
+            int prev = (i-1>=0)?s.charAt(i-1)-'0':0;
+            int no = prev*10+curr;
+
+
+            if(curr>0)
+                ans[i+1] =  ans[i];
+            if(no>=10 && no<=26 && i-1>=0)
+                ans[i+1] = ans[i+1] + ans[i-1];
+        }
+        return ans[n];
+    }
+
+
+}
+````

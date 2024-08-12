@@ -7,12 +7,14 @@ public class DetonateTheMaximumBombs {
     }
     public int maximumDetonation(int[][] bombs)
     {
+
         int max=0;
         Arrays.sort(bombs,(a,b)->(b[2]-a[2]));
         for(int i=0;i<bombs.length;i++)
         {
             if(bombs[i][2]!=-1)
             {
+
                 int count=0;
                 Queue<int[]> q = new LinkedList<int[]>();
                 q.add(Arrays.copyOf(bombs[i],bombs[0].length));

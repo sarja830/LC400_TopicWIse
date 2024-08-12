@@ -403,3 +403,93 @@ class Solution {
     }
 }
 ```
+
+
+#### 61. Rotate List
+```java
+
+class Solution {
+    public ListNode rotateRight(ListNode head, int k) {
+      if(head==null ) return head;
+        int count = 1;
+        ListNode curr = head;
+        while(curr.next!=null)
+        {
+            count++;
+            curr = curr.next;
+        }
+          k=k%count;
+        if(k%count==0) return head;
+        curr = head;
+        int n = 1;
+        while(curr!=null && n!=count-k)
+        {
+            n++;
+            curr= curr.next;
+        }
+        ListNode ans = curr.next;
+        curr.next = null;
+        curr = ans;
+        while(curr.next!=null)
+            curr = curr.next;
+        curr.next = head;
+        return ans;
+    }
+}
+```
+
+```java
+/*
+// Definition for a Node.
+class Node {
+    int val;
+    Node next;
+    Node random;
+
+    public Node(int val) {
+        this.val = val;
+        this.next = null;
+        this.random = null;
+    }
+}
+*/
+
+class Solution {
+    public Node copyRandomList(Node head) {
+        HashMap<Node,Node> map = new HashMap();
+        if(head == null)
+           return head;
+        Queue<Node> q = new LinkedList();
+        Node node = head;
+        q.add(node);
+        map.put(node,new Node(node.val));
+        while(!q.isEmpty())
+        {
+            Node temp = q.poll();
+            Node copy = map.get(temp);
+            if(temp.next!=null)
+            {
+                if(!map.containsKey(temp.next))
+                {
+                    map.put(temp.next,new Node(temp.next.val));
+                    
+                    q.add(temp.next);
+                }
+                copy.next = map.get(temp.next);
+            }
+            if(temp.random!=null)
+            {
+                if(!map.containsKey(temp.random))
+                {   
+                    map.put(temp.random,new Node(temp.random.val));
+                    
+                    q.add(temp.random);
+                }
+                copy.random = map.get(temp.random);
+              
+            }
+        }
+        return map.get(head);
+    }
+}
+```

@@ -2,6 +2,22 @@ package Arrays;
 import java.util.*;
 
 public class FindTheDuplicateNumber287 {
+    public int findDuplicate1(int[] nums) {
+        int i=0, n =nums.length;
+        while(i<n)
+        {
+            while(nums[i]!=i+1)
+            {
+                if(nums[nums[i]-1]==nums[i])
+                    return nums[i];
+                int temp = nums[i];
+                nums[i] = nums[nums[i]-1];
+                nums[nums[i]-1] = temp;
+            }
+            i++;
+        }
+        return -1;
+    }
 
         //solution using concept of linked list in a cycle
         // TC: O(n)
@@ -42,6 +58,6 @@ public class FindTheDuplicateNumber287 {
 
     public static void main(String[] args) {
         FindTheDuplicateNumber287 a = new FindTheDuplicateNumber287();
-        a.findDuplicate(new int[]{1,3,4,2,2});
+        a.findDuplicate1(new int[]{1,3,4,2,2});
     }
 }

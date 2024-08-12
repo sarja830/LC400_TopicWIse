@@ -1,6 +1,6 @@
 ## ACID Properties:
 
-A **transaction** is a single logical unit of work that accesses and possibly modifies the contents of a database
+**transaction** is a single logical unit of work that accesses and possibly modifies the contents of a database
 
 (in depth expalantion in notes)
 Atomicity: All or none (taa actions in a transaction should happen or non should happen)
